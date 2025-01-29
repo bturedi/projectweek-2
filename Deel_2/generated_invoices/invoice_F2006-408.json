@@ -1,0 +1,62 @@
+{
+  "invoice": {
+    "invoice_number": "F2006-408",
+    "order_number": "2006-408",
+    "date": "25-01-2021",
+    "due_date": "25-04-2021",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Sputnik B.V.",
+      "address": "Hoofdstraat 451",
+      "postal_code": "9018 AA",
+      "city": "Rotterdam",
+      "kvk": "14127877"
+    },
+    "line_items": [
+      {
+        "description": "GitHub",
+        "quantity": 1,
+        "unit": "stuks",
+        "price_excl": 185.27,
+        "vat_rate": 6.0,
+        "total_excl": 185.27,
+        "vat_amount": 11.12,
+        "total_incl": 196.39
+      },
+      {
+        "description": "Oracle Cloud",
+        "quantity": 3,
+        "unit": "stuks",
+        "price_excl": 208.3,
+        "vat_rate": 6.0,
+        "total_excl": 624.9,
+        "vat_amount": 37.49,
+        "total_incl": 662.39
+      }
+    ],
+    "totals": {
+      "total_excl": 810.17,
+      "vat_specifications": {
+        "6.0": {
+          "base_amount": 810.17,
+          "vat_amount": 48.61
+        }
+      },
+      "total_vat": 48.61,
+      "total_incl": 858.78
+    }
+  }
+}

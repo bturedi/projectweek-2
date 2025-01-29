@@ -1,0 +1,66 @@
+{
+  "invoice": {
+    "invoice_number": "F2005-056",
+    "order_number": "2005-056",
+    "date": "27-06-2023",
+    "due_date": "26-08-2023",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Sputnik B.V.",
+      "address": "Schoolstraat 632",
+      "postal_code": "3228 AC",
+      "city": "Amsterdam",
+      "kvk": "14108138"
+    },
+    "line_items": [
+      {
+        "description": "Oracle Java SE",
+        "quantity": 5,
+        "unit": "stuks",
+        "price_excl": 234.31,
+        "vat_rate": 9.0,
+        "total_excl": 1171.55,
+        "vat_amount": 105.44,
+        "total_incl": 1276.99
+      },
+      {
+        "description": "Microsoft Office 365",
+        "quantity": 2,
+        "unit": "stuks",
+        "price_excl": 14.38,
+        "vat_rate": 21.0,
+        "total_excl": 28.76,
+        "vat_amount": 6.04,
+        "total_incl": 34.8
+      }
+    ],
+    "totals": {
+      "total_excl": 1200.31,
+      "vat_specifications": {
+        "9.0": {
+          "base_amount": 1171.55,
+          "vat_amount": 105.44
+        },
+        "21.0": {
+          "base_amount": 28.76,
+          "vat_amount": 6.04
+        }
+      },
+      "total_vat": 111.48,
+      "total_incl": 1311.79
+    }
+  }
+}

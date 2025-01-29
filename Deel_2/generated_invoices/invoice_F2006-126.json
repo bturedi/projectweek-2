@@ -1,0 +1,52 @@
+{
+  "invoice": {
+    "invoice_number": "F2006-126",
+    "order_number": "2006-126",
+    "date": "03-08-2021",
+    "due_date": "02-10-2021",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Jupiter B.V.",
+      "address": "Kerkstraat 776",
+      "postal_code": "2770 AC",
+      "city": "Utrecht",
+      "kvk": "30043002"
+    },
+    "line_items": [
+      {
+        "description": "Microsoft Windows Server 2019",
+        "quantity": 5,
+        "unit": "stuks",
+        "price_excl": 370.72,
+        "vat_rate": 9.0,
+        "total_excl": 1853.6,
+        "vat_amount": 166.82,
+        "total_incl": 2020.42
+      }
+    ],
+    "totals": {
+      "total_excl": 1853.6,
+      "vat_specifications": {
+        "9.0": {
+          "base_amount": 1853.6,
+          "vat_amount": 166.82
+        }
+      },
+      "total_vat": 166.82,
+      "total_incl": 2020.42
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "invoice": {
+    "invoice_number": "F2012-041",
+    "order_number": "2012-041",
+    "date": "25-08-2020",
+    "due_date": "24-09-2020",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Jupiter B.V.",
+      "address": "Hoofdstraat 552",
+      "postal_code": "4062 AA",
+      "city": "Amsterdam",
+      "kvk": "46479909"
+    },
+    "line_items": [
+      {
+        "description": "Microsoft Office 365",
+        "quantity": 1,
+        "unit": "stuks",
+        "price_excl": 219.35,
+        "vat_rate": 21.0,
+        "total_excl": 219.35,
+        "vat_amount": 46.06,
+        "total_incl": 265.41
+      },
+      {
+        "description": "Google Ads",
+        "quantity": 1,
+        "unit": "stuks",
+        "price_excl": 75.4,
+        "vat_rate": 21.0,
+        "total_excl": 75.4,
+        "vat_amount": 15.83,
+        "total_incl": 91.23
+      }
+    ],
+    "totals": {
+      "total_excl": 294.75,
+      "vat_specifications": {
+        "21.0": {
+          "base_amount": 294.75,
+          "vat_amount": 61.89
+        }
+      },
+      "total_vat": 61.89,
+      "total_incl": 356.64
+    }
+  }
+}

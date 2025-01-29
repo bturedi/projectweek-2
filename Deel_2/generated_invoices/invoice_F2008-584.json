@@ -1,0 +1,52 @@
+{
+  "invoice": {
+    "invoice_number": "F2008-584",
+    "order_number": "2008-584",
+    "date": "22-01-2022",
+    "due_date": "21-02-2022",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Jupiter B.V.",
+      "address": "Hoofdstraat 689",
+      "postal_code": "9190 AB",
+      "city": "Amsterdam",
+      "kvk": "52857262"
+    },
+    "line_items": [
+      {
+        "description": "Adobe Premiere Pro",
+        "quantity": 5,
+        "unit": "stuks",
+        "price_excl": 355.07,
+        "vat_rate": 9.0,
+        "total_excl": 1775.35,
+        "vat_amount": 159.78,
+        "total_incl": 1935.13
+      }
+    ],
+    "totals": {
+      "total_excl": 1775.35,
+      "vat_specifications": {
+        "9.0": {
+          "base_amount": 1775.35,
+          "vat_amount": 159.78
+        }
+      },
+      "total_vat": 159.78,
+      "total_incl": 1935.13
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "invoice": {
+    "invoice_number": "F2009-379",
+    "order_number": "2009-379",
+    "date": "07-07-2024",
+    "due_date": "05-10-2024",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Sputnik B.V.",
+      "address": "Hoofdstraat 490",
+      "postal_code": "2902 AA",
+      "city": "Utrecht",
+      "kvk": "10775613"
+    },
+    "line_items": [
+      {
+        "description": "Microsoft Visual Studio 2019",
+        "quantity": 5,
+        "unit": "stuks",
+        "price_excl": 469.57,
+        "vat_rate": 9.0,
+        "total_excl": 2347.85,
+        "vat_amount": 211.31,
+        "total_incl": 2559.16
+      },
+      {
+        "description": "Google Webservices",
+        "quantity": 5,
+        "unit": "stuks",
+        "price_excl": 465.44,
+        "vat_rate": 6.0,
+        "total_excl": 2327.2,
+        "vat_amount": 139.63,
+        "total_incl": 2466.83
+      },
+      {
+        "description": "Google Workspace",
+        "quantity": 5,
+        "unit": "stuks",
+        "price_excl": 441.02,
+        "vat_rate": 21.0,
+        "total_excl": 2205.1,
+        "vat_amount": 463.07,
+        "total_incl": 2668.17
+      }
+    ],
+    "totals": {
+      "total_excl": 6880.15,
+      "vat_specifications": {
+        "9.0": {
+          "base_amount": 2347.85,
+          "vat_amount": 211.31
+        },
+        "6.0": {
+          "base_amount": 2327.2,
+          "vat_amount": 139.63
+        },
+        "21.0": {
+          "base_amount": 2205.1,
+          "vat_amount": 463.07
+        }
+      },
+      "total_vat": 814.01,
+      "total_incl": 7694.16
+    }
+  }
+}

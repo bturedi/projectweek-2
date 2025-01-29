@@ -1,0 +1,72 @@
+{
+  "invoice": {
+    "invoice_number": "F2017-589",
+    "order_number": "2017-589",
+    "date": "13-10-2021",
+    "due_date": "11-01-2022",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Jupiter B.V.",
+      "address": "Schoolstraat 355",
+      "postal_code": "6122 AC",
+      "city": "Rotterdam",
+      "kvk": "37787688"
+    },
+    "line_items": [
+      {
+        "description": "Microsoft Windows Server 2019",
+        "quantity": 3,
+        "unit": "stuks",
+        "price_excl": 58.8,
+        "vat_rate": 21.0,
+        "total_excl": 176.4,
+        "vat_amount": 37.04,
+        "total_incl": 213.44
+      },
+      {
+        "description": "Microsoft Windows Server 2019",
+        "quantity": 2,
+        "unit": "stuks",
+        "price_excl": 179.42,
+        "vat_rate": 21.0,
+        "total_excl": 358.84,
+        "vat_amount": 75.36,
+        "total_incl": 434.2
+      },
+      {
+        "description": "Oracle Java SE",
+        "quantity": 4,
+        "unit": "stuks",
+        "price_excl": 463.74,
+        "vat_rate": 21.0,
+        "total_excl": 1854.96,
+        "vat_amount": 389.54,
+        "total_incl": 2244.5
+      }
+    ],
+    "totals": {
+      "total_excl": 2390.2,
+      "vat_specifications": {
+        "21.0": {
+          "base_amount": 2390.2,
+          "vat_amount": 501.94
+        }
+      },
+      "total_vat": 501.94,
+      "total_incl": 2892.14
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "invoice": {
+    "invoice_number": "F2014-705",
+    "order_number": "2014-705",
+    "date": "28-01-2024",
+    "due_date": "27-02-2024",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Sputnik B.V.",
+      "address": "Hoofdstraat 838",
+      "postal_code": "7835 AC",
+      "city": "Rotterdam",
+      "kvk": "93040112"
+    },
+    "line_items": [
+      {
+        "description": "Adobe Photoshop",
+        "quantity": 3,
+        "unit": "stuks",
+        "price_excl": 250.27,
+        "vat_rate": 6.0,
+        "total_excl": 750.81,
+        "vat_amount": 45.05,
+        "total_incl": 795.86
+      },
+      {
+        "description": "Google Cloud Platform",
+        "quantity": 5,
+        "unit": "stuks",
+        "price_excl": 49.92,
+        "vat_rate": 9.0,
+        "total_excl": 249.6,
+        "vat_amount": 22.46,
+        "total_incl": 272.06
+      },
+      {
+        "description": "Oracle VirtualBox",
+        "quantity": 3,
+        "unit": "stuks",
+        "price_excl": 490.1,
+        "vat_rate": 21.0,
+        "total_excl": 1470.3,
+        "vat_amount": 308.76,
+        "total_incl": 1779.06
+      }
+    ],
+    "totals": {
+      "total_excl": 2470.71,
+      "vat_specifications": {
+        "6.0": {
+          "base_amount": 750.81,
+          "vat_amount": 45.05
+        },
+        "9.0": {
+          "base_amount": 249.6,
+          "vat_amount": 22.46
+        },
+        "21.0": {
+          "base_amount": 1470.3,
+          "vat_amount": 308.76
+        }
+      },
+      "total_vat": 376.27,
+      "total_incl": 2846.98
+    }
+  }
+}

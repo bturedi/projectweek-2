@@ -1,0 +1,76 @@
+{
+  "invoice": {
+    "invoice_number": "F2012-594",
+    "order_number": "2012-594",
+    "date": "11-05-2020",
+    "due_date": "09-08-2020",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Sputnik B.V.",
+      "address": "Schoolstraat 975",
+      "postal_code": "8916 AB",
+      "city": "Rotterdam",
+      "kvk": "22108518"
+    },
+    "line_items": [
+      {
+        "description": "Oracle MySQL",
+        "quantity": 5,
+        "unit": "stuks",
+        "price_excl": 144.23,
+        "vat_rate": 21.0,
+        "total_excl": 721.15,
+        "vat_amount": 151.44,
+        "total_incl": 872.59
+      },
+      {
+        "description": "Oracle WebLogic Server",
+        "quantity": 1,
+        "unit": "stuks",
+        "price_excl": 20.54,
+        "vat_rate": 9.0,
+        "total_excl": 20.54,
+        "vat_amount": 1.85,
+        "total_incl": 22.39
+      },
+      {
+        "description": "Microsoft Windows Server 2019",
+        "quantity": 3,
+        "unit": "stuks",
+        "price_excl": 374.33,
+        "vat_rate": 9.0,
+        "total_excl": 1122.99,
+        "vat_amount": 101.07,
+        "total_incl": 1224.06
+      }
+    ],
+    "totals": {
+      "total_excl": 1864.68,
+      "vat_specifications": {
+        "21.0": {
+          "base_amount": 721.15,
+          "vat_amount": 151.44
+        },
+        "9.0": {
+          "base_amount": 1143.53,
+          "vat_amount": 102.92
+        }
+      },
+      "total_vat": 254.36,
+      "total_incl": 2119.04
+    }
+  }
+}

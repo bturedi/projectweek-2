@@ -1,0 +1,52 @@
+{
+  "invoice": {
+    "invoice_number": "F2001-943",
+    "order_number": "2001-943",
+    "date": "26-04-2024",
+    "due_date": "25-06-2024",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Jupiter B.V.",
+      "address": "Schoolstraat 549",
+      "postal_code": "5553 AC",
+      "city": "Amsterdam",
+      "kvk": "34144395"
+    },
+    "line_items": [
+      {
+        "description": "Microsoft Windows 10",
+        "quantity": 3,
+        "unit": "stuks",
+        "price_excl": 389.97,
+        "vat_rate": 21.0,
+        "total_excl": 1169.91,
+        "vat_amount": 245.68,
+        "total_incl": 1415.59
+      }
+    ],
+    "totals": {
+      "total_excl": 1169.91,
+      "vat_specifications": {
+        "21.0": {
+          "base_amount": 1169.91,
+          "vat_amount": 245.68
+        }
+      },
+      "total_vat": 245.68,
+      "total_incl": 1415.59
+    }
+  }
+}

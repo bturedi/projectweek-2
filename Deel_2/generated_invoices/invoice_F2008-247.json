@@ -1,0 +1,80 @@
+{
+  "invoice": {
+    "invoice_number": "F2008-247",
+    "order_number": "2008-247",
+    "date": "05-11-2020",
+    "due_date": "04-01-2021",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Jupiter B.V.",
+      "address": "Hoofdstraat 21",
+      "postal_code": "3383 AC",
+      "city": "Amsterdam",
+      "kvk": "22911461"
+    },
+    "line_items": [
+      {
+        "description": "Microsoft Office 365",
+        "quantity": 1,
+        "unit": "stuks",
+        "price_excl": 438.58,
+        "vat_rate": 9.0,
+        "total_excl": 438.58,
+        "vat_amount": 39.47,
+        "total_incl": 478.05
+      },
+      {
+        "description": "Microsoft Azure",
+        "quantity": 3,
+        "unit": "stuks",
+        "price_excl": 269.84,
+        "vat_rate": 21.0,
+        "total_excl": 809.52,
+        "vat_amount": 170.0,
+        "total_incl": 979.52
+      },
+      {
+        "description": "Oracle VM",
+        "quantity": 5,
+        "unit": "stuks",
+        "price_excl": 207.83,
+        "vat_rate": 6.0,
+        "total_excl": 1039.15,
+        "vat_amount": 62.35,
+        "total_incl": 1101.5
+      }
+    ],
+    "totals": {
+      "total_excl": 2287.25,
+      "vat_specifications": {
+        "9.0": {
+          "base_amount": 438.58,
+          "vat_amount": 39.47
+        },
+        "21.0": {
+          "base_amount": 809.52,
+          "vat_amount": 170.0
+        },
+        "6.0": {
+          "base_amount": 1039.15,
+          "vat_amount": 62.35
+        }
+      },
+      "total_vat": 271.82,
+      "total_incl": 2559.07
+    }
+  }
+}

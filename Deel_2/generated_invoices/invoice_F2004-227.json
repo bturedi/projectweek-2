@@ -1,0 +1,76 @@
+{
+  "invoice": {
+    "invoice_number": "F2004-227",
+    "order_number": "2004-227",
+    "date": "04-08-2020",
+    "due_date": "03-09-2020",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Saturnus B.V.",
+      "address": "Hoofdstraat 817",
+      "postal_code": "7125 AB",
+      "city": "Amsterdam",
+      "kvk": "95637162"
+    },
+    "line_items": [
+      {
+        "description": "Adobe InDesign",
+        "quantity": 5,
+        "unit": "stuks",
+        "price_excl": 202.68,
+        "vat_rate": 9.0,
+        "total_excl": 1013.4,
+        "vat_amount": 91.21,
+        "total_incl": 1104.61
+      },
+      {
+        "description": "Microsoft Windows Server 2019",
+        "quantity": 3,
+        "unit": "stuks",
+        "price_excl": 347.23,
+        "vat_rate": 21.0,
+        "total_excl": 1041.69,
+        "vat_amount": 218.75,
+        "total_incl": 1260.44
+      },
+      {
+        "description": "Google Ads",
+        "quantity": 5,
+        "unit": "stuks",
+        "price_excl": 230.43,
+        "vat_rate": 21.0,
+        "total_excl": 1152.15,
+        "vat_amount": 241.95,
+        "total_incl": 1394.1
+      }
+    ],
+    "totals": {
+      "total_excl": 3207.24,
+      "vat_specifications": {
+        "9.0": {
+          "base_amount": 1013.4,
+          "vat_amount": 91.21
+        },
+        "21.0": {
+          "base_amount": 2193.84,
+          "vat_amount": 460.7
+        }
+      },
+      "total_vat": 551.91,
+      "total_incl": 3759.15
+    }
+  }
+}

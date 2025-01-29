@@ -1,0 +1,76 @@
+{
+  "invoice": {
+    "invoice_number": "F2008-348",
+    "order_number": "2008-348",
+    "date": "22-06-2023",
+    "due_date": "22-07-2023",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Sputnik B.V.",
+      "address": "Hoofdstraat 772",
+      "postal_code": "9999 AA",
+      "city": "Rotterdam",
+      "kvk": "31563377"
+    },
+    "line_items": [
+      {
+        "description": "Microsoft Dynamics 365",
+        "quantity": 3,
+        "unit": "stuks",
+        "price_excl": 289.11,
+        "vat_rate": 21.0,
+        "total_excl": 867.33,
+        "vat_amount": 182.14,
+        "total_incl": 1049.47
+      },
+      {
+        "description": "Google Analytics",
+        "quantity": 3,
+        "unit": "stuks",
+        "price_excl": 440.86,
+        "vat_rate": 6.0,
+        "total_excl": 1322.58,
+        "vat_amount": 79.35,
+        "total_incl": 1401.93
+      },
+      {
+        "description": "Google Workspace",
+        "quantity": 1,
+        "unit": "stuks",
+        "price_excl": 437.34,
+        "vat_rate": 6.0,
+        "total_excl": 437.34,
+        "vat_amount": 26.24,
+        "total_incl": 463.58
+      }
+    ],
+    "totals": {
+      "total_excl": 2627.25,
+      "vat_specifications": {
+        "21.0": {
+          "base_amount": 867.33,
+          "vat_amount": 182.14
+        },
+        "6.0": {
+          "base_amount": 1759.92,
+          "vat_amount": 105.59
+        }
+      },
+      "total_vat": 287.73,
+      "total_incl": 2914.98
+    }
+  }
+}

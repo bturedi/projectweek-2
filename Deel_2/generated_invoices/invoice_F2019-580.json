@@ -1,0 +1,52 @@
+{
+  "invoice": {
+    "invoice_number": "F2019-580",
+    "order_number": "2019-580",
+    "date": "14-07-2021",
+    "due_date": "13-08-2021",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Sputnik B.V.",
+      "address": "Schoolstraat 865",
+      "postal_code": "6622 AB",
+      "city": "Utrecht",
+      "kvk": "68532343"
+    },
+    "line_items": [
+      {
+        "description": "Oracle VM",
+        "quantity": 2,
+        "unit": "stuks",
+        "price_excl": 52.71,
+        "vat_rate": 6.0,
+        "total_excl": 105.42,
+        "vat_amount": 6.33,
+        "total_incl": 111.75
+      }
+    ],
+    "totals": {
+      "total_excl": 105.42,
+      "vat_specifications": {
+        "6.0": {
+          "base_amount": 105.42,
+          "vat_amount": 6.33
+        }
+      },
+      "total_vat": 6.33,
+      "total_incl": 111.75
+    }
+  }
+}

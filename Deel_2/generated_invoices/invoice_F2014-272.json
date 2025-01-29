@@ -1,0 +1,52 @@
+{
+  "invoice": {
+    "invoice_number": "F2014-272",
+    "order_number": "2014-272",
+    "date": "11-04-2022",
+    "due_date": "10-07-2022",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Saturnus B.V.",
+      "address": "Schoolstraat 161",
+      "postal_code": "5274 AC",
+      "city": "Utrecht",
+      "kvk": "32111963"
+    },
+    "line_items": [
+      {
+        "description": "Oracle Database 19c",
+        "quantity": 3,
+        "unit": "stuks",
+        "price_excl": 94.77,
+        "vat_rate": 21.0,
+        "total_excl": 284.31,
+        "vat_amount": 59.71,
+        "total_incl": 344.02
+      }
+    ],
+    "totals": {
+      "total_excl": 284.31,
+      "vat_specifications": {
+        "21.0": {
+          "base_amount": 284.31,
+          "vat_amount": 59.71
+        }
+      },
+      "total_vat": 59.71,
+      "total_incl": 344.02
+    }
+  }
+}

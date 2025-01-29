@@ -1,0 +1,76 @@
+{
+  "invoice": {
+    "invoice_number": "F2016-426",
+    "order_number": "2016-426",
+    "date": "15-12-2022",
+    "due_date": "14-01-2023",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Sputnik B.V.",
+      "address": "Kerkstraat 493",
+      "postal_code": "6843 AC",
+      "city": "Rotterdam",
+      "kvk": "84542273"
+    },
+    "line_items": [
+      {
+        "description": "Google Cloud Platform",
+        "quantity": 3,
+        "unit": "stuks",
+        "price_excl": 313.83,
+        "vat_rate": 21.0,
+        "total_excl": 941.49,
+        "vat_amount": 197.71,
+        "total_incl": 1139.2
+      },
+      {
+        "description": "Oracle VM",
+        "quantity": 3,
+        "unit": "stuks",
+        "price_excl": 137.45,
+        "vat_rate": 6.0,
+        "total_excl": 412.35,
+        "vat_amount": 24.74,
+        "total_incl": 437.09
+      },
+      {
+        "description": "Adobe InDesign",
+        "quantity": 4,
+        "unit": "stuks",
+        "price_excl": 349.88,
+        "vat_rate": 21.0,
+        "total_excl": 1399.52,
+        "vat_amount": 293.9,
+        "total_incl": 1693.42
+      }
+    ],
+    "totals": {
+      "total_excl": 2753.36,
+      "vat_specifications": {
+        "21.0": {
+          "base_amount": 2341.01,
+          "vat_amount": 491.61
+        },
+        "6.0": {
+          "base_amount": 412.35,
+          "vat_amount": 24.74
+        }
+      },
+      "total_vat": 516.35,
+      "total_incl": 3269.71
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "invoice": {
+    "invoice_number": "F2002-079",
+    "order_number": "2002-079",
+    "date": "24-11-2020",
+    "due_date": "24-12-2020",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Jupiter B.V.",
+      "address": "Hoofdstraat 585",
+      "postal_code": "1240 AA",
+      "city": "Rotterdam",
+      "kvk": "17727171"
+    },
+    "line_items": [
+      {
+        "description": "Microsoft Dynamics 365",
+        "quantity": 1,
+        "unit": "stuks",
+        "price_excl": 172.95,
+        "vat_rate": 6.0,
+        "total_excl": 172.95,
+        "vat_amount": 10.38,
+        "total_incl": 183.33
+      },
+      {
+        "description": "Microsoft Dynamics 365",
+        "quantity": 3,
+        "unit": "stuks",
+        "price_excl": 120.39,
+        "vat_rate": 21.0,
+        "total_excl": 361.17,
+        "vat_amount": 75.85,
+        "total_incl": 437.02
+      },
+      {
+        "description": "Microsoft Visual Studio 2019",
+        "quantity": 1,
+        "unit": "stuks",
+        "price_excl": 182.94,
+        "vat_rate": 6.0,
+        "total_excl": 182.94,
+        "vat_amount": 10.98,
+        "total_incl": 193.92
+      }
+    ],
+    "totals": {
+      "total_excl": 717.06,
+      "vat_specifications": {
+        "6.0": {
+          "base_amount": 355.89,
+          "vat_amount": 21.36
+        },
+        "21.0": {
+          "base_amount": 361.17,
+          "vat_amount": 75.85
+        }
+      },
+      "total_vat": 97.21,
+      "total_incl": 814.27
+    }
+  }
+}

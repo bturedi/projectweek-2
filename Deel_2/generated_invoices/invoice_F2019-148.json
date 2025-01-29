@@ -1,0 +1,76 @@
+{
+  "invoice": {
+    "invoice_number": "F2019-148",
+    "order_number": "2019-148",
+    "date": "05-06-2023",
+    "due_date": "05-07-2023",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Jupiter B.V.",
+      "address": "Hoofdstraat 607",
+      "postal_code": "6417 AB",
+      "city": "Utrecht",
+      "kvk": "59806030"
+    },
+    "line_items": [
+      {
+        "description": "Microsoft Dynamics 365",
+        "quantity": 1,
+        "unit": "stuks",
+        "price_excl": 293.52,
+        "vat_rate": 9.0,
+        "total_excl": 293.52,
+        "vat_amount": 26.42,
+        "total_incl": 319.94
+      },
+      {
+        "description": "Oracle Cloud",
+        "quantity": 3,
+        "unit": "stuks",
+        "price_excl": 396.58,
+        "vat_rate": 9.0,
+        "total_excl": 1189.74,
+        "vat_amount": 107.08,
+        "total_incl": 1296.82
+      },
+      {
+        "description": "Google Workspace",
+        "quantity": 3,
+        "unit": "stuks",
+        "price_excl": 182.51,
+        "vat_rate": 6.0,
+        "total_excl": 547.53,
+        "vat_amount": 32.85,
+        "total_incl": 580.38
+      }
+    ],
+    "totals": {
+      "total_excl": 2030.79,
+      "vat_specifications": {
+        "9.0": {
+          "base_amount": 1483.26,
+          "vat_amount": 133.5
+        },
+        "6.0": {
+          "base_amount": 547.53,
+          "vat_amount": 32.85
+        }
+      },
+      "total_vat": 166.35,
+      "total_incl": 2197.14
+    }
+  }
+}

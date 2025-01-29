@@ -1,0 +1,76 @@
+{
+  "invoice": {
+    "invoice_number": "F2021-035",
+    "order_number": "2021-035",
+    "date": "17-05-2022",
+    "due_date": "15-08-2022",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Saturnus B.V.",
+      "address": "Schoolstraat 437",
+      "postal_code": "8550 AA",
+      "city": "Utrecht",
+      "kvk": "37940336"
+    },
+    "line_items": [
+      {
+        "description": "Google Analytics",
+        "quantity": 1,
+        "unit": "stuks",
+        "price_excl": 33.44,
+        "vat_rate": 9.0,
+        "total_excl": 33.44,
+        "vat_amount": 3.01,
+        "total_incl": 36.45
+      },
+      {
+        "description": "Oracle MySQL",
+        "quantity": 4,
+        "unit": "stuks",
+        "price_excl": 18.43,
+        "vat_rate": 21.0,
+        "total_excl": 73.72,
+        "vat_amount": 15.48,
+        "total_incl": 89.2
+      },
+      {
+        "description": "Adobe Photoshop",
+        "quantity": 5,
+        "unit": "stuks",
+        "price_excl": 101.13,
+        "vat_rate": 9.0,
+        "total_excl": 505.65,
+        "vat_amount": 45.51,
+        "total_incl": 551.16
+      }
+    ],
+    "totals": {
+      "total_excl": 612.81,
+      "vat_specifications": {
+        "9.0": {
+          "base_amount": 539.09,
+          "vat_amount": 48.52
+        },
+        "21.0": {
+          "base_amount": 73.72,
+          "vat_amount": 15.48
+        }
+      },
+      "total_vat": 64.0,
+      "total_incl": 676.81
+    }
+  }
+}

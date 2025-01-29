@@ -1,0 +1,66 @@
+{
+  "invoice": {
+    "invoice_number": "F2017-289",
+    "order_number": "2017-289",
+    "date": "24-08-2021",
+    "due_date": "23-10-2021",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Sputnik B.V.",
+      "address": "Kerkstraat 743",
+      "postal_code": "6160 AC",
+      "city": "Rotterdam",
+      "kvk": "94285744"
+    },
+    "line_items": [
+      {
+        "description": "Microsoft Visual Studio 2019",
+        "quantity": 4,
+        "unit": "stuks",
+        "price_excl": 57.69,
+        "vat_rate": 6.0,
+        "total_excl": 230.76,
+        "vat_amount": 13.85,
+        "total_incl": 244.61
+      },
+      {
+        "description": "Microsoft Visual Studio 2019",
+        "quantity": 4,
+        "unit": "stuks",
+        "price_excl": 349.2,
+        "vat_rate": 9.0,
+        "total_excl": 1396.8,
+        "vat_amount": 125.71,
+        "total_incl": 1522.51
+      }
+    ],
+    "totals": {
+      "total_excl": 1627.56,
+      "vat_specifications": {
+        "6.0": {
+          "base_amount": 230.76,
+          "vat_amount": 13.85
+        },
+        "9.0": {
+          "base_amount": 1396.8,
+          "vat_amount": 125.71
+        }
+      },
+      "total_vat": 139.56,
+      "total_incl": 1767.12
+    }
+  }
+}

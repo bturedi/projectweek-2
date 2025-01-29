@@ -1,0 +1,76 @@
+{
+  "invoice": {
+    "invoice_number": "F2001-926",
+    "order_number": "2001-926",
+    "date": "22-02-2023",
+    "due_date": "24-03-2023",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Jupiter B.V.",
+      "address": "Kerkstraat 720",
+      "postal_code": "3404 AC",
+      "city": "Utrecht",
+      "kvk": "10951352"
+    },
+    "line_items": [
+      {
+        "description": "Adobe InDesign",
+        "quantity": 2,
+        "unit": "stuks",
+        "price_excl": 233.13,
+        "vat_rate": 21.0,
+        "total_excl": 466.26,
+        "vat_amount": 97.91,
+        "total_incl": 564.17
+      },
+      {
+        "description": "Adobe Premiere Pro",
+        "quantity": 1,
+        "unit": "stuks",
+        "price_excl": 402.79,
+        "vat_rate": 9.0,
+        "total_excl": 402.79,
+        "vat_amount": 36.25,
+        "total_incl": 439.04
+      },
+      {
+        "description": "Oracle Java SE",
+        "quantity": 4,
+        "unit": "stuks",
+        "price_excl": 294.33,
+        "vat_rate": 21.0,
+        "total_excl": 1177.32,
+        "vat_amount": 247.24,
+        "total_incl": 1424.56
+      }
+    ],
+    "totals": {
+      "total_excl": 2046.37,
+      "vat_specifications": {
+        "21.0": {
+          "base_amount": 1643.58,
+          "vat_amount": 345.15
+        },
+        "9.0": {
+          "base_amount": 402.79,
+          "vat_amount": 36.25
+        }
+      },
+      "total_vat": 381.4,
+      "total_incl": 2427.77
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "invoice": {
+    "invoice_number": "F2002-555",
+    "order_number": "2002-555",
+    "date": "04-10-2022",
+    "due_date": "03-11-2022",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Jupiter B.V.",
+      "address": "Schoolstraat 792",
+      "postal_code": "1845 AC",
+      "city": "Rotterdam",
+      "kvk": "36457879"
+    },
+    "line_items": [
+      {
+        "description": "Oracle Solaris",
+        "quantity": 1,
+        "unit": "stuks",
+        "price_excl": 319.02,
+        "vat_rate": 9.0,
+        "total_excl": 319.02,
+        "vat_amount": 28.71,
+        "total_incl": 347.73
+      },
+      {
+        "description": "Microsoft SQL Server 2019",
+        "quantity": 2,
+        "unit": "stuks",
+        "price_excl": 220.47,
+        "vat_rate": 9.0,
+        "total_excl": 440.94,
+        "vat_amount": 39.68,
+        "total_incl": 480.62
+      },
+      {
+        "description": "Microsoft Power BI",
+        "quantity": 5,
+        "unit": "stuks",
+        "price_excl": 258.37,
+        "vat_rate": 6.0,
+        "total_excl": 1291.85,
+        "vat_amount": 77.51,
+        "total_incl": 1369.36
+      }
+    ],
+    "totals": {
+      "total_excl": 2051.81,
+      "vat_specifications": {
+        "9.0": {
+          "base_amount": 759.96,
+          "vat_amount": 68.39
+        },
+        "6.0": {
+          "base_amount": 1291.85,
+          "vat_amount": 77.51
+        }
+      },
+      "total_vat": 145.9,
+      "total_incl": 2197.71
+    }
+  }
+}

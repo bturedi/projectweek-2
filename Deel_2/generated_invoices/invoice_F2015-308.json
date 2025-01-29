@@ -1,0 +1,66 @@
+{
+  "invoice": {
+    "invoice_number": "F2015-308",
+    "order_number": "2015-308",
+    "date": "03-05-2020",
+    "due_date": "02-06-2020",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Saturnus B.V.",
+      "address": "Hoofdstraat 199",
+      "postal_code": "5718 AC",
+      "city": "Rotterdam",
+      "kvk": "79264809"
+    },
+    "line_items": [
+      {
+        "description": "Google Ads",
+        "quantity": 2,
+        "unit": "stuks",
+        "price_excl": 212.96,
+        "vat_rate": 21.0,
+        "total_excl": 425.92,
+        "vat_amount": 89.44,
+        "total_incl": 515.36
+      },
+      {
+        "description": "Oracle VM",
+        "quantity": 5,
+        "unit": "stuks",
+        "price_excl": 427.62,
+        "vat_rate": 6.0,
+        "total_excl": 2138.1,
+        "vat_amount": 128.29,
+        "total_incl": 2266.39
+      }
+    ],
+    "totals": {
+      "total_excl": 2564.02,
+      "vat_specifications": {
+        "21.0": {
+          "base_amount": 425.92,
+          "vat_amount": 89.44
+        },
+        "6.0": {
+          "base_amount": 2138.1,
+          "vat_amount": 128.29
+        }
+      },
+      "total_vat": 217.73,
+      "total_incl": 2781.75
+    }
+  }
+}

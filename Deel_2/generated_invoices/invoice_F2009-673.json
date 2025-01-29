@@ -1,0 +1,52 @@
+{
+  "invoice": {
+    "invoice_number": "F2009-673",
+    "order_number": "2009-673",
+    "date": "07-10-2023",
+    "due_date": "06-11-2023",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Jupiter B.V.",
+      "address": "Schoolstraat 468",
+      "postal_code": "1137 AC",
+      "city": "Utrecht",
+      "kvk": "61296120"
+    },
+    "line_items": [
+      {
+        "description": "Adobe Photoshop",
+        "quantity": 4,
+        "unit": "stuks",
+        "price_excl": 75.01,
+        "vat_rate": 6.0,
+        "total_excl": 300.04,
+        "vat_amount": 18.0,
+        "total_incl": 318.04
+      }
+    ],
+    "totals": {
+      "total_excl": 300.04,
+      "vat_specifications": {
+        "6.0": {
+          "base_amount": 300.04,
+          "vat_amount": 18.0
+        }
+      },
+      "total_vat": 18.0,
+      "total_incl": 318.04
+    }
+  }
+}

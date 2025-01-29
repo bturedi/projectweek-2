@@ -1,0 +1,76 @@
+{
+  "invoice": {
+    "invoice_number": "F2000-067",
+    "order_number": "2000-067",
+    "date": "12-09-2020",
+    "due_date": "11-11-2020",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Sputnik B.V.",
+      "address": "Schoolstraat 205",
+      "postal_code": "2523 AC",
+      "city": "Rotterdam",
+      "kvk": "98024571"
+    },
+    "line_items": [
+      {
+        "description": "Microsoft Dynamics 365",
+        "quantity": 1,
+        "unit": "stuks",
+        "price_excl": 372.81,
+        "vat_rate": 21.0,
+        "total_excl": 372.81,
+        "vat_amount": 78.29,
+        "total_incl": 451.1
+      },
+      {
+        "description": "Google Ads",
+        "quantity": 5,
+        "unit": "stuks",
+        "price_excl": 173.23,
+        "vat_rate": 21.0,
+        "total_excl": 866.15,
+        "vat_amount": 181.89,
+        "total_incl": 1048.04
+      },
+      {
+        "description": "Oracle Java SE",
+        "quantity": 2,
+        "unit": "stuks",
+        "price_excl": 426.32,
+        "vat_rate": 9.0,
+        "total_excl": 852.64,
+        "vat_amount": 76.74,
+        "total_incl": 929.38
+      }
+    ],
+    "totals": {
+      "total_excl": 2091.6,
+      "vat_specifications": {
+        "21.0": {
+          "base_amount": 1238.96,
+          "vat_amount": 260.18
+        },
+        "9.0": {
+          "base_amount": 852.64,
+          "vat_amount": 76.74
+        }
+      },
+      "total_vat": 336.92,
+      "total_incl": 2428.52
+    }
+  }
+}

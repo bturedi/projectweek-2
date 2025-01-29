@@ -1,0 +1,62 @@
+{
+  "invoice": {
+    "invoice_number": "F2015-842",
+    "order_number": "2015-842",
+    "date": "15-06-2024",
+    "due_date": "13-09-2024",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Saturnus B.V.",
+      "address": "Kerkstraat 381",
+      "postal_code": "9286 AB",
+      "city": "Rotterdam",
+      "kvk": "98898629"
+    },
+    "line_items": [
+      {
+        "description": "Microsoft Visual Studio 2019",
+        "quantity": 5,
+        "unit": "stuks",
+        "price_excl": 57.89,
+        "vat_rate": 6.0,
+        "total_excl": 289.45,
+        "vat_amount": 17.37,
+        "total_incl": 306.82
+      },
+      {
+        "description": "Microsoft Visual Studio 2019",
+        "quantity": 4,
+        "unit": "stuks",
+        "price_excl": 354.53,
+        "vat_rate": 6.0,
+        "total_excl": 1418.12,
+        "vat_amount": 85.09,
+        "total_incl": 1503.21
+      }
+    ],
+    "totals": {
+      "total_excl": 1707.57,
+      "vat_specifications": {
+        "6.0": {
+          "base_amount": 1707.57,
+          "vat_amount": 102.46
+        }
+      },
+      "total_vat": 102.46,
+      "total_incl": 1810.03
+    }
+  }
+}

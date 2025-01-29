@@ -1,0 +1,86 @@
+{
+  "invoice": {
+    "invoice_number": "F2016-487",
+    "order_number": "2016-487",
+    "date": "01-03-2021",
+    "due_date": "31-03-2021",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Sputnik B.V.",
+      "address": "Schoolstraat 263",
+      "postal_code": "5400 AB",
+      "city": "Utrecht",
+      "kvk": "16743329"
+    },
+    "line_items": [
+      {
+        "description": "Oracle Java SE",
+        "quantity": 5,
+        "unit": "stuks",
+        "price_excl": 181.49,
+        "vat_rate": 6.0,
+        "total_excl": 907.45,
+        "vat_amount": 54.45,
+        "total_incl": 961.9
+      },
+      {
+        "description": "Microsoft Windows 10",
+        "quantity": 3,
+        "unit": "stuks",
+        "price_excl": 380.84,
+        "vat_rate": 21.0,
+        "total_excl": 1142.52,
+        "vat_amount": 239.93,
+        "total_incl": 1382.45
+      },
+      {
+        "description": "Google Analytics",
+        "quantity": 2,
+        "unit": "stuks",
+        "price_excl": 318.92,
+        "vat_rate": 6.0,
+        "total_excl": 637.84,
+        "vat_amount": 38.27,
+        "total_incl": 676.11
+      },
+      {
+        "description": "Adobe Photoshop",
+        "quantity": 4,
+        "unit": "stuks",
+        "price_excl": 77.77,
+        "vat_rate": 6.0,
+        "total_excl": 311.08,
+        "vat_amount": 18.66,
+        "total_incl": 329.74
+      }
+    ],
+    "totals": {
+      "total_excl": 2998.89,
+      "vat_specifications": {
+        "6.0": {
+          "base_amount": 1856.37,
+          "vat_amount": 111.38
+        },
+        "21.0": {
+          "base_amount": 1142.52,
+          "vat_amount": 239.93
+        }
+      },
+      "total_vat": 351.31,
+      "total_incl": 3350.2
+    }
+  }
+}

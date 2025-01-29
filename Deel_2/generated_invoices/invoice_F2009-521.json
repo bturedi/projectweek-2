@@ -1,0 +1,76 @@
+{
+  "invoice": {
+    "invoice_number": "F2009-521",
+    "order_number": "2009-521",
+    "date": "22-10-2024",
+    "due_date": "21-12-2024",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Sputnik B.V.",
+      "address": "Schoolstraat 129",
+      "postal_code": "4636 AC",
+      "city": "Utrecht",
+      "kvk": "32922022"
+    },
+    "line_items": [
+      {
+        "description": "Microsoft Visual Studio 2019",
+        "quantity": 4,
+        "unit": "stuks",
+        "price_excl": 108.46,
+        "vat_rate": 9.0,
+        "total_excl": 433.84,
+        "vat_amount": 39.05,
+        "total_incl": 472.89
+      },
+      {
+        "description": "Microsoft Azure",
+        "quantity": 5,
+        "unit": "stuks",
+        "price_excl": 187.23,
+        "vat_rate": 9.0,
+        "total_excl": 936.15,
+        "vat_amount": 84.25,
+        "total_incl": 1020.4
+      },
+      {
+        "description": "Oracle MySQL",
+        "quantity": 4,
+        "unit": "stuks",
+        "price_excl": 471.91,
+        "vat_rate": 21.0,
+        "total_excl": 1887.64,
+        "vat_amount": 396.4,
+        "total_incl": 2284.04
+      }
+    ],
+    "totals": {
+      "total_excl": 3257.63,
+      "vat_specifications": {
+        "9.0": {
+          "base_amount": 1369.99,
+          "vat_amount": 123.3
+        },
+        "21.0": {
+          "base_amount": 1887.64,
+          "vat_amount": 396.4
+        }
+      },
+      "total_vat": 519.7,
+      "total_incl": 3777.33
+    }
+  }
+}

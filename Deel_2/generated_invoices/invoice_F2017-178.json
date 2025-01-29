@@ -1,0 +1,52 @@
+{
+  "invoice": {
+    "invoice_number": "F2017-178",
+    "order_number": "2017-178",
+    "date": "21-11-2021",
+    "due_date": "21-12-2021",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Jupiter B.V.",
+      "address": "Kerkstraat 597",
+      "postal_code": "9908 AA",
+      "city": "Utrecht",
+      "kvk": "10239816"
+    },
+    "line_items": [
+      {
+        "description": "Oracle Solaris",
+        "quantity": 1,
+        "unit": "stuks",
+        "price_excl": 110.12,
+        "vat_rate": 21.0,
+        "total_excl": 110.12,
+        "vat_amount": 23.13,
+        "total_incl": 133.25
+      }
+    ],
+    "totals": {
+      "total_excl": 110.12,
+      "vat_specifications": {
+        "21.0": {
+          "base_amount": 110.12,
+          "vat_amount": 23.13
+        }
+      },
+      "total_vat": 23.13,
+      "total_incl": 133.25
+    }
+  }
+}

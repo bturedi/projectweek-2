@@ -1,0 +1,90 @@
+{
+  "invoice": {
+    "invoice_number": "F2007-404",
+    "order_number": "2007-404",
+    "date": "26-08-2023",
+    "due_date": "25-09-2023",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Sputnik B.V.",
+      "address": "Hoofdstraat 64",
+      "postal_code": "7910 AC",
+      "city": "Amsterdam",
+      "kvk": "88092647"
+    },
+    "line_items": [
+      {
+        "description": "Adobe Creative Cloud",
+        "quantity": 1,
+        "unit": "stuks",
+        "price_excl": 106.7,
+        "vat_rate": 21.0,
+        "total_excl": 106.7,
+        "vat_amount": 22.41,
+        "total_incl": 129.11
+      },
+      {
+        "description": "Oracle VirtualBox",
+        "quantity": 3,
+        "unit": "stuks",
+        "price_excl": 249.97,
+        "vat_rate": 6.0,
+        "total_excl": 749.91,
+        "vat_amount": 44.99,
+        "total_incl": 794.9
+      },
+      {
+        "description": "Oracle VirtualBox",
+        "quantity": 4,
+        "unit": "stuks",
+        "price_excl": 368.21,
+        "vat_rate": 9.0,
+        "total_excl": 1472.84,
+        "vat_amount": 132.56,
+        "total_incl": 1605.4
+      },
+      {
+        "description": "Microsoft SQL Server 2019",
+        "quantity": 4,
+        "unit": "stuks",
+        "price_excl": 331.21,
+        "vat_rate": 21.0,
+        "total_excl": 1324.84,
+        "vat_amount": 278.22,
+        "total_incl": 1603.06
+      }
+    ],
+    "totals": {
+      "total_excl": 3654.29,
+      "vat_specifications": {
+        "21.0": {
+          "base_amount": 1431.54,
+          "vat_amount": 300.63
+        },
+        "6.0": {
+          "base_amount": 749.91,
+          "vat_amount": 44.99
+        },
+        "9.0": {
+          "base_amount": 1472.84,
+          "vat_amount": 132.56
+        }
+      },
+      "total_vat": 478.18,
+      "total_incl": 4132.47
+    }
+  }
+}

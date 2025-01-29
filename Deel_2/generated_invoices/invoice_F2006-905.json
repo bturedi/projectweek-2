@@ -1,0 +1,86 @@
+{
+  "invoice": {
+    "invoice_number": "F2006-905",
+    "order_number": "2006-905",
+    "date": "19-12-2024",
+    "due_date": "17-02-2025",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Jupiter B.V.",
+      "address": "Kerkstraat 651",
+      "postal_code": "9046 AC",
+      "city": "Amsterdam",
+      "kvk": "96495254"
+    },
+    "line_items": [
+      {
+        "description": "Microsoft SQL Server 2019",
+        "quantity": 4,
+        "unit": "stuks",
+        "price_excl": 249.32,
+        "vat_rate": 21.0,
+        "total_excl": 997.28,
+        "vat_amount": 209.43,
+        "total_incl": 1206.71
+      },
+      {
+        "description": "Adobe Creative Cloud",
+        "quantity": 2,
+        "unit": "stuks",
+        "price_excl": 299.87,
+        "vat_rate": 21.0,
+        "total_excl": 599.74,
+        "vat_amount": 125.95,
+        "total_incl": 725.69
+      },
+      {
+        "description": "Adobe Illustrator",
+        "quantity": 3,
+        "unit": "stuks",
+        "price_excl": 439.72,
+        "vat_rate": 9.0,
+        "total_excl": 1319.16,
+        "vat_amount": 118.72,
+        "total_incl": 1437.88
+      },
+      {
+        "description": "Adobe Creative Cloud",
+        "quantity": 4,
+        "unit": "stuks",
+        "price_excl": 42.66,
+        "vat_rate": 21.0,
+        "total_excl": 170.64,
+        "vat_amount": 35.83,
+        "total_incl": 206.47
+      }
+    ],
+    "totals": {
+      "total_excl": 3086.82,
+      "vat_specifications": {
+        "21.0": {
+          "base_amount": 1767.66,
+          "vat_amount": 371.21
+        },
+        "9.0": {
+          "base_amount": 1319.16,
+          "vat_amount": 118.72
+        }
+      },
+      "total_vat": 489.93,
+      "total_incl": 3576.75
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "invoice": {
+    "invoice_number": "F2000-223",
+    "order_number": "2000-223",
+    "date": "08-06-2022",
+    "due_date": "08-07-2022",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Sputnik B.V.",
+      "address": "Kerkstraat 897",
+      "postal_code": "4491 AB",
+      "city": "Amsterdam",
+      "kvk": "80276902"
+    },
+    "line_items": [
+      {
+        "description": "Oracle VM",
+        "quantity": 1,
+        "unit": "stuks",
+        "price_excl": 11.63,
+        "vat_rate": 9.0,
+        "total_excl": 11.63,
+        "vat_amount": 1.05,
+        "total_incl": 12.68
+      },
+      {
+        "description": "Google Webservices",
+        "quantity": 4,
+        "unit": "stuks",
+        "price_excl": 310.21,
+        "vat_rate": 21.0,
+        "total_excl": 1240.84,
+        "vat_amount": 260.58,
+        "total_incl": 1501.42
+      },
+      {
+        "description": "Oracle MySQL",
+        "quantity": 5,
+        "unit": "stuks",
+        "price_excl": 229.22,
+        "vat_rate": 21.0,
+        "total_excl": 1146.1,
+        "vat_amount": 240.68,
+        "total_incl": 1386.78
+      },
+      {
+        "description": "Oracle WebLogic Server",
+        "quantity": 4,
+        "unit": "stuks",
+        "price_excl": 388.29,
+        "vat_rate": 6.0,
+        "total_excl": 1553.16,
+        "vat_amount": 93.19,
+        "total_incl": 1646.35
+      }
+    ],
+    "totals": {
+      "total_excl": 3951.73,
+      "vat_specifications": {
+        "9.0": {
+          "base_amount": 11.63,
+          "vat_amount": 1.05
+        },
+        "21.0": {
+          "base_amount": 2386.94,
+          "vat_amount": 501.26
+        },
+        "6.0": {
+          "base_amount": 1553.16,
+          "vat_amount": 93.19
+        }
+      },
+      "total_vat": 595.5,
+      "total_incl": 4547.23
+    }
+  }
+}

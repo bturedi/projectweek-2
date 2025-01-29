@@ -1,0 +1,90 @@
+{
+  "invoice": {
+    "invoice_number": "F2000-474",
+    "order_number": "2000-474",
+    "date": "09-11-2023",
+    "due_date": "08-01-2024",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Sputnik B.V.",
+      "address": "Hoofdstraat 624",
+      "postal_code": "7886 AC",
+      "city": "Rotterdam",
+      "kvk": "28659628"
+    },
+    "line_items": [
+      {
+        "description": "Google Webservices",
+        "quantity": 4,
+        "unit": "stuks",
+        "price_excl": 454.18,
+        "vat_rate": 9.0,
+        "total_excl": 1816.72,
+        "vat_amount": 163.5,
+        "total_incl": 1980.22
+      },
+      {
+        "description": "Microsoft Power BI",
+        "quantity": 5,
+        "unit": "stuks",
+        "price_excl": 477.43,
+        "vat_rate": 6.0,
+        "total_excl": 2387.15,
+        "vat_amount": 143.23,
+        "total_incl": 2530.38
+      },
+      {
+        "description": "Microsoft Dynamics 365",
+        "quantity": 3,
+        "unit": "stuks",
+        "price_excl": 488.63,
+        "vat_rate": 21.0,
+        "total_excl": 1465.89,
+        "vat_amount": 307.84,
+        "total_incl": 1773.73
+      },
+      {
+        "description": "Oracle Solaris",
+        "quantity": 1,
+        "unit": "stuks",
+        "price_excl": 154.03,
+        "vat_rate": 21.0,
+        "total_excl": 154.03,
+        "vat_amount": 32.35,
+        "total_incl": 186.38
+      }
+    ],
+    "totals": {
+      "total_excl": 5823.79,
+      "vat_specifications": {
+        "9.0": {
+          "base_amount": 1816.72,
+          "vat_amount": 163.5
+        },
+        "6.0": {
+          "base_amount": 2387.15,
+          "vat_amount": 143.23
+        },
+        "21.0": {
+          "base_amount": 1619.92,
+          "vat_amount": 340.19
+        }
+      },
+      "total_vat": 646.92,
+      "total_incl": 6470.71
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "invoice": {
+    "invoice_number": "F2021-300",
+    "order_number": "2021-300",
+    "date": "14-07-2021",
+    "due_date": "13-08-2021",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Jupiter B.V.",
+      "address": "Kerkstraat 85",
+      "postal_code": "1868 AA",
+      "city": "Rotterdam",
+      "kvk": "28678533"
+    },
+    "line_items": [
+      {
+        "description": "Microsoft Azure",
+        "quantity": 3,
+        "unit": "stuks",
+        "price_excl": 92.38,
+        "vat_rate": 9.0,
+        "total_excl": 277.14,
+        "vat_amount": 24.94,
+        "total_incl": 302.08
+      },
+      {
+        "description": "Oracle Cloud",
+        "quantity": 2,
+        "unit": "stuks",
+        "price_excl": 169.34,
+        "vat_rate": 21.0,
+        "total_excl": 338.68,
+        "vat_amount": 71.12,
+        "total_incl": 409.8
+      },
+      {
+        "description": "Microsoft Windows Server 2019",
+        "quantity": 3,
+        "unit": "stuks",
+        "price_excl": 232.05,
+        "vat_rate": 9.0,
+        "total_excl": 696.15,
+        "vat_amount": 62.65,
+        "total_incl": 758.8
+      }
+    ],
+    "totals": {
+      "total_excl": 1311.97,
+      "vat_specifications": {
+        "9.0": {
+          "base_amount": 973.29,
+          "vat_amount": 87.59
+        },
+        "21.0": {
+          "base_amount": 338.68,
+          "vat_amount": 71.12
+        }
+      },
+      "total_vat": 158.71,
+      "total_incl": 1470.68
+    }
+  }
+}

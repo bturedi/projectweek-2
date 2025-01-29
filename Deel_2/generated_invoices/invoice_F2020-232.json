@@ -1,0 +1,66 @@
+{
+  "invoice": {
+    "invoice_number": "F2020-232",
+    "order_number": "2020-232",
+    "date": "06-10-2022",
+    "due_date": "05-12-2022",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Jupiter B.V.",
+      "address": "Hoofdstraat 934",
+      "postal_code": "5184 AA",
+      "city": "Rotterdam",
+      "kvk": "22102929"
+    },
+    "line_items": [
+      {
+        "description": "Oracle VirtualBox",
+        "quantity": 4,
+        "unit": "stuks",
+        "price_excl": 186.43,
+        "vat_rate": 21.0,
+        "total_excl": 745.72,
+        "vat_amount": 156.6,
+        "total_incl": 902.32
+      },
+      {
+        "description": "Oracle Java SE",
+        "quantity": 1,
+        "unit": "stuks",
+        "price_excl": 127.5,
+        "vat_rate": 6.0,
+        "total_excl": 127.5,
+        "vat_amount": 7.65,
+        "total_incl": 135.15
+      }
+    ],
+    "totals": {
+      "total_excl": 873.22,
+      "vat_specifications": {
+        "21.0": {
+          "base_amount": 745.72,
+          "vat_amount": 156.6
+        },
+        "6.0": {
+          "base_amount": 127.5,
+          "vat_amount": 7.65
+        }
+      },
+      "total_vat": 164.25,
+      "total_incl": 1037.47
+    }
+  }
+}

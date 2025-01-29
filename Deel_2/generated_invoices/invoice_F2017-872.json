@@ -1,0 +1,62 @@
+{
+  "invoice": {
+    "invoice_number": "F2017-872",
+    "order_number": "2017-872",
+    "date": "08-05-2022",
+    "due_date": "06-08-2022",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Saturnus B.V.",
+      "address": "Hoofdstraat 371",
+      "postal_code": "3047 AC",
+      "city": "Rotterdam",
+      "kvk": "20222202"
+    },
+    "line_items": [
+      {
+        "description": "Oracle Database 19c",
+        "quantity": 1,
+        "unit": "stuks",
+        "price_excl": 204.14,
+        "vat_rate": 9.0,
+        "total_excl": 204.14,
+        "vat_amount": 18.37,
+        "total_incl": 222.51
+      },
+      {
+        "description": "Oracle VirtualBox",
+        "quantity": 3,
+        "unit": "stuks",
+        "price_excl": 235.19,
+        "vat_rate": 9.0,
+        "total_excl": 705.57,
+        "vat_amount": 63.5,
+        "total_incl": 769.07
+      }
+    ],
+    "totals": {
+      "total_excl": 909.71,
+      "vat_specifications": {
+        "9.0": {
+          "base_amount": 909.71,
+          "vat_amount": 81.87
+        }
+      },
+      "total_vat": 81.87,
+      "total_incl": 991.58
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "invoice": {
+    "invoice_number": "F2019-609",
+    "order_number": "2019-609",
+    "date": "17-06-2023",
+    "due_date": "15-09-2023",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Jupiter B.V.",
+      "address": "Schoolstraat 3",
+      "postal_code": "2690 AC",
+      "city": "Utrecht",
+      "kvk": "53881121"
+    },
+    "line_items": [
+      {
+        "description": "Oracle VM",
+        "quantity": 4,
+        "unit": "stuks",
+        "price_excl": 187.01,
+        "vat_rate": 6.0,
+        "total_excl": 748.04,
+        "vat_amount": 44.88,
+        "total_incl": 792.92
+      },
+      {
+        "description": "Oracle Cloud",
+        "quantity": 4,
+        "unit": "stuks",
+        "price_excl": 471.26,
+        "vat_rate": 9.0,
+        "total_excl": 1885.04,
+        "vat_amount": 169.65,
+        "total_incl": 2054.69
+      }
+    ],
+    "totals": {
+      "total_excl": 2633.08,
+      "vat_specifications": {
+        "6.0": {
+          "base_amount": 748.04,
+          "vat_amount": 44.88
+        },
+        "9.0": {
+          "base_amount": 1885.04,
+          "vat_amount": 169.65
+        }
+      },
+      "total_vat": 214.53,
+      "total_incl": 2847.61
+    }
+  }
+}

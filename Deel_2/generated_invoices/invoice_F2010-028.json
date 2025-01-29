@@ -1,0 +1,86 @@
+{
+  "invoice": {
+    "invoice_number": "F2010-028",
+    "order_number": "2010-028",
+    "date": "27-12-2023",
+    "due_date": "25-02-2024",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Jupiter B.V.",
+      "address": "Hoofdstraat 668",
+      "postal_code": "3183 AA",
+      "city": "Rotterdam",
+      "kvk": "45817551"
+    },
+    "line_items": [
+      {
+        "description": "Adobe Creative Cloud",
+        "quantity": 1,
+        "unit": "stuks",
+        "price_excl": 225.46,
+        "vat_rate": 6.0,
+        "total_excl": 225.46,
+        "vat_amount": 13.53,
+        "total_incl": 238.99
+      },
+      {
+        "description": "Microsoft Office 365",
+        "quantity": 2,
+        "unit": "stuks",
+        "price_excl": 240.46,
+        "vat_rate": 6.0,
+        "total_excl": 480.92,
+        "vat_amount": 28.86,
+        "total_incl": 509.78
+      },
+      {
+        "description": "Oracle Java SE",
+        "quantity": 4,
+        "unit": "stuks",
+        "price_excl": 338.9,
+        "vat_rate": 6.0,
+        "total_excl": 1355.6,
+        "vat_amount": 81.34,
+        "total_incl": 1436.94
+      },
+      {
+        "description": "Oracle MySQL",
+        "quantity": 1,
+        "unit": "stuks",
+        "price_excl": 24.74,
+        "vat_rate": 9.0,
+        "total_excl": 24.74,
+        "vat_amount": 2.23,
+        "total_incl": 26.97
+      }
+    ],
+    "totals": {
+      "total_excl": 2086.72,
+      "vat_specifications": {
+        "6.0": {
+          "base_amount": 2061.98,
+          "vat_amount": 123.73
+        },
+        "9.0": {
+          "base_amount": 24.74,
+          "vat_amount": 2.23
+        }
+      },
+      "total_vat": 125.96,
+      "total_incl": 2212.68
+    }
+  }
+}

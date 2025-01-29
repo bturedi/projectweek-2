@@ -1,0 +1,76 @@
+{
+  "invoice": {
+    "invoice_number": "F2013-104",
+    "order_number": "2013-104",
+    "date": "02-05-2023",
+    "due_date": "31-07-2023",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Sputnik B.V.",
+      "address": "Hoofdstraat 59",
+      "postal_code": "4624 AC",
+      "city": "Utrecht",
+      "kvk": "35280207"
+    },
+    "line_items": [
+      {
+        "description": "Oracle Cloud",
+        "quantity": 5,
+        "unit": "stuks",
+        "price_excl": 290.48,
+        "vat_rate": 21.0,
+        "total_excl": 1452.4,
+        "vat_amount": 305.0,
+        "total_incl": 1757.4
+      },
+      {
+        "description": "Microsoft Windows 10",
+        "quantity": 2,
+        "unit": "stuks",
+        "price_excl": 88.09,
+        "vat_rate": 9.0,
+        "total_excl": 176.18,
+        "vat_amount": 15.86,
+        "total_incl": 192.04
+      },
+      {
+        "description": "Oracle Database 19c",
+        "quantity": 4,
+        "unit": "stuks",
+        "price_excl": 264.16,
+        "vat_rate": 9.0,
+        "total_excl": 1056.64,
+        "vat_amount": 95.1,
+        "total_incl": 1151.74
+      }
+    ],
+    "totals": {
+      "total_excl": 2685.22,
+      "vat_specifications": {
+        "21.0": {
+          "base_amount": 1452.4,
+          "vat_amount": 305.0
+        },
+        "9.0": {
+          "base_amount": 1232.82,
+          "vat_amount": 110.96
+        }
+      },
+      "total_vat": 415.96,
+      "total_incl": 3101.18
+    }
+  }
+}

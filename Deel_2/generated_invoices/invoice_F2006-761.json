@@ -1,0 +1,66 @@
+{
+  "invoice": {
+    "invoice_number": "F2006-761",
+    "order_number": "2006-761",
+    "date": "23-09-2021",
+    "due_date": "22-11-2021",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Sputnik B.V.",
+      "address": "Schoolstraat 693",
+      "postal_code": "8548 AA",
+      "city": "Rotterdam",
+      "kvk": "57613337"
+    },
+    "line_items": [
+      {
+        "description": "Adobe Premiere Pro",
+        "quantity": 2,
+        "unit": "stuks",
+        "price_excl": 337.08,
+        "vat_rate": 9.0,
+        "total_excl": 674.16,
+        "vat_amount": 60.67,
+        "total_incl": 734.83
+      },
+      {
+        "description": "Oracle WebLogic Server",
+        "quantity": 4,
+        "unit": "stuks",
+        "price_excl": 160.32,
+        "vat_rate": 21.0,
+        "total_excl": 641.28,
+        "vat_amount": 134.67,
+        "total_incl": 775.95
+      }
+    ],
+    "totals": {
+      "total_excl": 1315.44,
+      "vat_specifications": {
+        "9.0": {
+          "base_amount": 674.16,
+          "vat_amount": 60.67
+        },
+        "21.0": {
+          "base_amount": 641.28,
+          "vat_amount": 134.67
+        }
+      },
+      "total_vat": 195.34,
+      "total_incl": 1510.78
+    }
+  }
+}

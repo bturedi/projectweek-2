@@ -1,0 +1,76 @@
+{
+  "invoice": {
+    "invoice_number": "F2011-711",
+    "order_number": "2011-711",
+    "date": "17-08-2024",
+    "due_date": "16-10-2024",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Saturnus B.V.",
+      "address": "Hoofdstraat 52",
+      "postal_code": "2545 AC",
+      "city": "Rotterdam",
+      "kvk": "12107435"
+    },
+    "line_items": [
+      {
+        "description": "Adobe Illustrator",
+        "quantity": 3,
+        "unit": "stuks",
+        "price_excl": 89.31,
+        "vat_rate": 21.0,
+        "total_excl": 267.93,
+        "vat_amount": 56.27,
+        "total_incl": 324.2
+      },
+      {
+        "description": "Microsoft Dynamics 365",
+        "quantity": 2,
+        "unit": "stuks",
+        "price_excl": 465.26,
+        "vat_rate": 9.0,
+        "total_excl": 930.52,
+        "vat_amount": 83.75,
+        "total_incl": 1014.27
+      },
+      {
+        "description": "Adobe Illustrator",
+        "quantity": 3,
+        "unit": "stuks",
+        "price_excl": 352.41,
+        "vat_rate": 21.0,
+        "total_excl": 1057.23,
+        "vat_amount": 222.02,
+        "total_incl": 1279.25
+      }
+    ],
+    "totals": {
+      "total_excl": 2255.68,
+      "vat_specifications": {
+        "21.0": {
+          "base_amount": 1325.16,
+          "vat_amount": 278.29
+        },
+        "9.0": {
+          "base_amount": 930.52,
+          "vat_amount": 83.75
+        }
+      },
+      "total_vat": 362.04,
+      "total_incl": 2617.72
+    }
+  }
+}

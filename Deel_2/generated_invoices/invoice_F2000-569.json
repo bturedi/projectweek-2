@@ -1,0 +1,52 @@
+{
+  "invoice": {
+    "invoice_number": "F2000-569",
+    "order_number": "2000-569",
+    "date": "21-04-2021",
+    "due_date": "20-06-2021",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Jupiter B.V.",
+      "address": "Hoofdstraat 978",
+      "postal_code": "6334 AB",
+      "city": "Utrecht",
+      "kvk": "98977862"
+    },
+    "line_items": [
+      {
+        "description": "Oracle WebLogic Server",
+        "quantity": 3,
+        "unit": "stuks",
+        "price_excl": 94.0,
+        "vat_rate": 9.0,
+        "total_excl": 282.0,
+        "vat_amount": 25.38,
+        "total_incl": 307.38
+      }
+    ],
+    "totals": {
+      "total_excl": 282.0,
+      "vat_specifications": {
+        "9.0": {
+          "base_amount": 282.0,
+          "vat_amount": 25.38
+        }
+      },
+      "total_vat": 25.38,
+      "total_incl": 307.38
+    }
+  }
+}

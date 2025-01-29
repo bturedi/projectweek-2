@@ -1,0 +1,76 @@
+{
+  "invoice": {
+    "invoice_number": "F2003-710",
+    "order_number": "2003-710",
+    "date": "20-06-2022",
+    "due_date": "19-08-2022",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Jupiter B.V.",
+      "address": "Kerkstraat 497",
+      "postal_code": "4355 AC",
+      "city": "Rotterdam",
+      "kvk": "77191315"
+    },
+    "line_items": [
+      {
+        "description": "Oracle VirtualBox",
+        "quantity": 1,
+        "unit": "stuks",
+        "price_excl": 166.07,
+        "vat_rate": 9.0,
+        "total_excl": 166.07,
+        "vat_amount": 14.95,
+        "total_incl": 181.02
+      },
+      {
+        "description": "Google Workspace",
+        "quantity": 5,
+        "unit": "stuks",
+        "price_excl": 38.26,
+        "vat_rate": 21.0,
+        "total_excl": 191.3,
+        "vat_amount": 40.17,
+        "total_incl": 231.47
+      },
+      {
+        "description": "Adobe Illustrator",
+        "quantity": 4,
+        "unit": "stuks",
+        "price_excl": 355.5,
+        "vat_rate": 21.0,
+        "total_excl": 1422.0,
+        "vat_amount": 298.62,
+        "total_incl": 1720.62
+      }
+    ],
+    "totals": {
+      "total_excl": 1779.37,
+      "vat_specifications": {
+        "9.0": {
+          "base_amount": 166.07,
+          "vat_amount": 14.95
+        },
+        "21.0": {
+          "base_amount": 1613.3,
+          "vat_amount": 338.79
+        }
+      },
+      "total_vat": 353.74,
+      "total_incl": 2133.11
+    }
+  }
+}

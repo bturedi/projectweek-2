@@ -1,0 +1,76 @@
+{
+  "invoice": {
+    "invoice_number": "F2009-356",
+    "order_number": "2009-356",
+    "date": "14-09-2020",
+    "due_date": "13-11-2020",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Saturnus B.V.",
+      "address": "Schoolstraat 632",
+      "postal_code": "7243 AA",
+      "city": "Rotterdam",
+      "kvk": "71727295"
+    },
+    "line_items": [
+      {
+        "description": "Oracle Cloud",
+        "quantity": 5,
+        "unit": "stuks",
+        "price_excl": 466.36,
+        "vat_rate": 21.0,
+        "total_excl": 2331.8,
+        "vat_amount": 489.68,
+        "total_incl": 2821.48
+      },
+      {
+        "description": "Google Cloud Platform",
+        "quantity": 2,
+        "unit": "stuks",
+        "price_excl": 249.43,
+        "vat_rate": 6.0,
+        "total_excl": 498.86,
+        "vat_amount": 29.93,
+        "total_incl": 528.79
+      },
+      {
+        "description": "Oracle WebLogic Server",
+        "quantity": 3,
+        "unit": "stuks",
+        "price_excl": 270.01,
+        "vat_rate": 6.0,
+        "total_excl": 810.03,
+        "vat_amount": 48.6,
+        "total_incl": 858.63
+      }
+    ],
+    "totals": {
+      "total_excl": 3640.69,
+      "vat_specifications": {
+        "21.0": {
+          "base_amount": 2331.8,
+          "vat_amount": 489.68
+        },
+        "6.0": {
+          "base_amount": 1308.89,
+          "vat_amount": 78.53
+        }
+      },
+      "total_vat": 568.21,
+      "total_incl": 4208.9
+    }
+  }
+}

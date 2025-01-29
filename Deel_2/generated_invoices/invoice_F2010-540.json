@@ -1,0 +1,76 @@
+{
+  "invoice": {
+    "invoice_number": "F2010-540",
+    "order_number": "2010-540",
+    "date": "11-08-2020",
+    "due_date": "10-09-2020",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Saturnus B.V.",
+      "address": "Hoofdstraat 740",
+      "postal_code": "5521 AC",
+      "city": "Rotterdam",
+      "kvk": "63153026"
+    },
+    "line_items": [
+      {
+        "description": "Adobe Illustrator",
+        "quantity": 3,
+        "unit": "stuks",
+        "price_excl": 387.1,
+        "vat_rate": 6.0,
+        "total_excl": 1161.3,
+        "vat_amount": 69.68,
+        "total_incl": 1230.98
+      },
+      {
+        "description": "Adobe Premiere Pro",
+        "quantity": 3,
+        "unit": "stuks",
+        "price_excl": 125.85,
+        "vat_rate": 6.0,
+        "total_excl": 377.55,
+        "vat_amount": 22.65,
+        "total_incl": 400.2
+      },
+      {
+        "description": "Microsoft Windows Server 2019",
+        "quantity": 3,
+        "unit": "stuks",
+        "price_excl": 312.97,
+        "vat_rate": 9.0,
+        "total_excl": 938.91,
+        "vat_amount": 84.5,
+        "total_incl": 1023.41
+      }
+    ],
+    "totals": {
+      "total_excl": 2477.76,
+      "vat_specifications": {
+        "6.0": {
+          "base_amount": 1538.85,
+          "vat_amount": 92.33
+        },
+        "9.0": {
+          "base_amount": 938.91,
+          "vat_amount": 84.5
+        }
+      },
+      "total_vat": 176.83,
+      "total_incl": 2654.59
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "invoice": {
+    "invoice_number": "F2010-702",
+    "order_number": "2010-702",
+    "date": "04-07-2020",
+    "due_date": "02-10-2020",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Jupiter B.V.",
+      "address": "Hoofdstraat 135",
+      "postal_code": "8396 AB",
+      "city": "Rotterdam",
+      "kvk": "80510309"
+    },
+    "line_items": [
+      {
+        "description": "Microsoft Power BI",
+        "quantity": 1,
+        "unit": "stuks",
+        "price_excl": 59.08,
+        "vat_rate": 9.0,
+        "total_excl": 59.08,
+        "vat_amount": 5.32,
+        "total_incl": 64.4
+      }
+    ],
+    "totals": {
+      "total_excl": 59.08,
+      "vat_specifications": {
+        "9.0": {
+          "base_amount": 59.08,
+          "vat_amount": 5.32
+        }
+      },
+      "total_vat": 5.32,
+      "total_incl": 64.4
+    }
+  }
+}

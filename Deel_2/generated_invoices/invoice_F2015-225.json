@@ -1,0 +1,76 @@
+{
+  "invoice": {
+    "invoice_number": "F2015-225",
+    "order_number": "2015-225",
+    "date": "18-08-2020",
+    "due_date": "17-09-2020",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Saturnus B.V.",
+      "address": "Schoolstraat 793",
+      "postal_code": "6372 AC",
+      "city": "Rotterdam",
+      "kvk": "20769650"
+    },
+    "line_items": [
+      {
+        "description": "Oracle VirtualBox",
+        "quantity": 2,
+        "unit": "stuks",
+        "price_excl": 224.42,
+        "vat_rate": 21.0,
+        "total_excl": 448.84,
+        "vat_amount": 94.26,
+        "total_incl": 543.1
+      },
+      {
+        "description": "Adobe Premiere Pro",
+        "quantity": 1,
+        "unit": "stuks",
+        "price_excl": 391.66,
+        "vat_rate": 6.0,
+        "total_excl": 391.66,
+        "vat_amount": 23.5,
+        "total_incl": 415.16
+      },
+      {
+        "description": "Microsoft Power BI",
+        "quantity": 3,
+        "unit": "stuks",
+        "price_excl": 24.37,
+        "vat_rate": 6.0,
+        "total_excl": 73.11,
+        "vat_amount": 4.39,
+        "total_incl": 77.5
+      }
+    ],
+    "totals": {
+      "total_excl": 913.61,
+      "vat_specifications": {
+        "21.0": {
+          "base_amount": 448.84,
+          "vat_amount": 94.26
+        },
+        "6.0": {
+          "base_amount": 464.77,
+          "vat_amount": 27.89
+        }
+      },
+      "total_vat": 122.15,
+      "total_incl": 1035.76
+    }
+  }
+}

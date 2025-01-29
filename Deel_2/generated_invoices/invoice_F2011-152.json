@@ -1,0 +1,82 @@
+{
+  "invoice": {
+    "invoice_number": "F2011-152",
+    "order_number": "2011-152",
+    "date": "03-09-2021",
+    "due_date": "03-10-2021",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Saturnus B.V.",
+      "address": "Hoofdstraat 330",
+      "postal_code": "5229 AC",
+      "city": "Amsterdam",
+      "kvk": "85187090"
+    },
+    "line_items": [
+      {
+        "description": "Oracle Database 19c",
+        "quantity": 3,
+        "unit": "stuks",
+        "price_excl": 205.26,
+        "vat_rate": 21.0,
+        "total_excl": 615.78,
+        "vat_amount": 129.31,
+        "total_incl": 745.09
+      },
+      {
+        "description": "Adobe Photoshop",
+        "quantity": 4,
+        "unit": "stuks",
+        "price_excl": 392.47,
+        "vat_rate": 21.0,
+        "total_excl": 1569.88,
+        "vat_amount": 329.67,
+        "total_incl": 1899.55
+      },
+      {
+        "description": "Adobe Premiere Pro",
+        "quantity": 5,
+        "unit": "stuks",
+        "price_excl": 321.34,
+        "vat_rate": 21.0,
+        "total_excl": 1606.7,
+        "vat_amount": 337.41,
+        "total_incl": 1944.11
+      },
+      {
+        "description": "Microsoft Azure",
+        "quantity": 2,
+        "unit": "stuks",
+        "price_excl": 33.83,
+        "vat_rate": 21.0,
+        "total_excl": 67.66,
+        "vat_amount": 14.21,
+        "total_incl": 81.87
+      }
+    ],
+    "totals": {
+      "total_excl": 3860.02,
+      "vat_specifications": {
+        "21.0": {
+          "base_amount": 3860.02,
+          "vat_amount": 810.6
+        }
+      },
+      "total_vat": 810.6,
+      "total_incl": 4670.62
+    }
+  }
+}

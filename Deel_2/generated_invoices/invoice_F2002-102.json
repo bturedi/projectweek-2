@@ -1,0 +1,62 @@
+{
+  "invoice": {
+    "invoice_number": "F2002-102",
+    "order_number": "2002-102",
+    "date": "22-02-2022",
+    "due_date": "23-05-2022",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Jupiter B.V.",
+      "address": "Hoofdstraat 769",
+      "postal_code": "9122 AC",
+      "city": "Amsterdam",
+      "kvk": "51475606"
+    },
+    "line_items": [
+      {
+        "description": "Adobe Illustrator",
+        "quantity": 1,
+        "unit": "stuks",
+        "price_excl": 377.96,
+        "vat_rate": 9.0,
+        "total_excl": 377.96,
+        "vat_amount": 34.02,
+        "total_incl": 411.98
+      },
+      {
+        "description": "Adobe InDesign",
+        "quantity": 3,
+        "unit": "stuks",
+        "price_excl": 446.31,
+        "vat_rate": 9.0,
+        "total_excl": 1338.93,
+        "vat_amount": 120.5,
+        "total_incl": 1459.43
+      }
+    ],
+    "totals": {
+      "total_excl": 1716.89,
+      "vat_specifications": {
+        "9.0": {
+          "base_amount": 1716.89,
+          "vat_amount": 154.52
+        }
+      },
+      "total_vat": 154.52,
+      "total_incl": 1871.41
+    }
+  }
+}

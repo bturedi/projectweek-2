@@ -1,0 +1,52 @@
+{
+  "invoice": {
+    "invoice_number": "F2021-969",
+    "order_number": "2021-969",
+    "date": "23-02-2024",
+    "due_date": "23-04-2024",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Sputnik B.V.",
+      "address": "Schoolstraat 248",
+      "postal_code": "5927 AC",
+      "city": "Amsterdam",
+      "kvk": "63938423"
+    },
+    "line_items": [
+      {
+        "description": "Google Cloud Platform",
+        "quantity": 2,
+        "unit": "stuks",
+        "price_excl": 21.52,
+        "vat_rate": 6.0,
+        "total_excl": 43.04,
+        "vat_amount": 2.58,
+        "total_incl": 45.62
+      }
+    ],
+    "totals": {
+      "total_excl": 43.04,
+      "vat_specifications": {
+        "6.0": {
+          "base_amount": 43.04,
+          "vat_amount": 2.58
+        }
+      },
+      "total_vat": 2.58,
+      "total_incl": 45.62
+    }
+  }
+}

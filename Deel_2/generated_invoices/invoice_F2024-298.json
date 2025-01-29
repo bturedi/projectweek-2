@@ -1,0 +1,66 @@
+{
+  "invoice": {
+    "invoice_number": "F2024-298",
+    "order_number": "2024-298",
+    "date": "12-03-2022",
+    "due_date": "11-04-2022",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Sputnik B.V.",
+      "address": "Hoofdstraat 551",
+      "postal_code": "5005 AB",
+      "city": "Utrecht",
+      "kvk": "53534336"
+    },
+    "line_items": [
+      {
+        "description": "Microsoft Office 365",
+        "quantity": 2,
+        "unit": "stuks",
+        "price_excl": 73.89,
+        "vat_rate": 6.0,
+        "total_excl": 147.78,
+        "vat_amount": 8.87,
+        "total_incl": 156.65
+      },
+      {
+        "description": "Microsoft SQL Server 2019",
+        "quantity": 4,
+        "unit": "stuks",
+        "price_excl": 47.05,
+        "vat_rate": 9.0,
+        "total_excl": 188.2,
+        "vat_amount": 16.94,
+        "total_incl": 205.14
+      }
+    ],
+    "totals": {
+      "total_excl": 335.98,
+      "vat_specifications": {
+        "6.0": {
+          "base_amount": 147.78,
+          "vat_amount": 8.87
+        },
+        "9.0": {
+          "base_amount": 188.2,
+          "vat_amount": 16.94
+        }
+      },
+      "total_vat": 25.81,
+      "total_incl": 361.79
+    }
+  }
+}

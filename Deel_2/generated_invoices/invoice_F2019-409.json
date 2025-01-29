@@ -1,0 +1,76 @@
+{
+  "invoice": {
+    "invoice_number": "F2019-409",
+    "order_number": "2019-409",
+    "date": "11-03-2024",
+    "due_date": "09-06-2024",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Saturnus B.V.",
+      "address": "Kerkstraat 220",
+      "postal_code": "9584 AB",
+      "city": "Amsterdam",
+      "kvk": "73070220"
+    },
+    "line_items": [
+      {
+        "description": "Adobe Creative Cloud",
+        "quantity": 1,
+        "unit": "stuks",
+        "price_excl": 51.68,
+        "vat_rate": 9.0,
+        "total_excl": 51.68,
+        "vat_amount": 4.65,
+        "total_incl": 56.33
+      },
+      {
+        "description": "Oracle VirtualBox",
+        "quantity": 4,
+        "unit": "stuks",
+        "price_excl": 253.04,
+        "vat_rate": 6.0,
+        "total_excl": 1012.16,
+        "vat_amount": 60.73,
+        "total_incl": 1072.89
+      },
+      {
+        "description": "Oracle MySQL",
+        "quantity": 2,
+        "unit": "stuks",
+        "price_excl": 448.21,
+        "vat_rate": 6.0,
+        "total_excl": 896.42,
+        "vat_amount": 53.79,
+        "total_incl": 950.21
+      }
+    ],
+    "totals": {
+      "total_excl": 1960.26,
+      "vat_specifications": {
+        "9.0": {
+          "base_amount": 51.68,
+          "vat_amount": 4.65
+        },
+        "6.0": {
+          "base_amount": 1908.58,
+          "vat_amount": 114.52
+        }
+      },
+      "total_vat": 119.17,
+      "total_incl": 2079.43
+    }
+  }
+}

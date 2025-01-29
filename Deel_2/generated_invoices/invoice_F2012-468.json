@@ -1,0 +1,76 @@
+{
+  "invoice": {
+    "invoice_number": "F2012-468",
+    "order_number": "2012-468",
+    "date": "24-06-2023",
+    "due_date": "22-09-2023",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Saturnus B.V.",
+      "address": "Hoofdstraat 436",
+      "postal_code": "8832 AC",
+      "city": "Amsterdam",
+      "kvk": "47873088"
+    },
+    "line_items": [
+      {
+        "description": "Google Cloud Platform",
+        "quantity": 3,
+        "unit": "stuks",
+        "price_excl": 99.35,
+        "vat_rate": 6.0,
+        "total_excl": 298.05,
+        "vat_amount": 17.88,
+        "total_incl": 315.93
+      },
+      {
+        "description": "Adobe Photoshop",
+        "quantity": 4,
+        "unit": "stuks",
+        "price_excl": 224.65,
+        "vat_rate": 9.0,
+        "total_excl": 898.6,
+        "vat_amount": 80.87,
+        "total_incl": 979.47
+      },
+      {
+        "description": "Microsoft Windows Server 2019",
+        "quantity": 5,
+        "unit": "stuks",
+        "price_excl": 480.27,
+        "vat_rate": 9.0,
+        "total_excl": 2401.35,
+        "vat_amount": 216.12,
+        "total_incl": 2617.47
+      }
+    ],
+    "totals": {
+      "total_excl": 3598.0,
+      "vat_specifications": {
+        "6.0": {
+          "base_amount": 298.05,
+          "vat_amount": 17.88
+        },
+        "9.0": {
+          "base_amount": 3299.95,
+          "vat_amount": 296.99
+        }
+      },
+      "total_vat": 314.87,
+      "total_incl": 3912.87
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "invoice": {
+    "invoice_number": "F2023-135",
+    "order_number": "2023-135",
+    "date": "20-02-2024",
+    "due_date": "20-05-2024",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Sputnik B.V.",
+      "address": "Hoofdstraat 960",
+      "postal_code": "9186 AC",
+      "city": "Utrecht",
+      "kvk": "83455583"
+    },
+    "line_items": [
+      {
+        "description": "Adobe Creative Cloud",
+        "quantity": 2,
+        "unit": "stuks",
+        "price_excl": 355.95,
+        "vat_rate": 21.0,
+        "total_excl": 711.9,
+        "vat_amount": 149.5,
+        "total_incl": 861.4
+      }
+    ],
+    "totals": {
+      "total_excl": 711.9,
+      "vat_specifications": {
+        "21.0": {
+          "base_amount": 711.9,
+          "vat_amount": 149.5
+        }
+      },
+      "total_vat": 149.5,
+      "total_incl": 861.4
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "invoice": {
+    "invoice_number": "F2023-682",
+    "order_number": "2023-682",
+    "date": "20-04-2022",
+    "due_date": "20-05-2022",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Sputnik B.V.",
+      "address": "Hoofdstraat 360",
+      "postal_code": "9859 AA",
+      "city": "Utrecht",
+      "kvk": "99573682"
+    },
+    "line_items": [
+      {
+        "description": "Adobe InDesign",
+        "quantity": 1,
+        "unit": "stuks",
+        "price_excl": 34.01,
+        "vat_rate": 21.0,
+        "total_excl": 34.01,
+        "vat_amount": 7.14,
+        "total_incl": 41.15
+      },
+      {
+        "description": "Microsoft Azure",
+        "quantity": 2,
+        "unit": "stuks",
+        "price_excl": 148.33,
+        "vat_rate": 21.0,
+        "total_excl": 296.66,
+        "vat_amount": 62.3,
+        "total_incl": 358.96
+      },
+      {
+        "description": "Google Analytics",
+        "quantity": 4,
+        "unit": "stuks",
+        "price_excl": 146.73,
+        "vat_rate": 21.0,
+        "total_excl": 586.92,
+        "vat_amount": 123.25,
+        "total_incl": 710.17
+      },
+      {
+        "description": "Microsoft Windows Server 2019",
+        "quantity": 3,
+        "unit": "stuks",
+        "price_excl": 54.37,
+        "vat_rate": 21.0,
+        "total_excl": 163.11,
+        "vat_amount": 34.25,
+        "total_incl": 197.36
+      }
+    ],
+    "totals": {
+      "total_excl": 1080.7,
+      "vat_specifications": {
+        "21.0": {
+          "base_amount": 1080.7,
+          "vat_amount": 226.94
+        }
+      },
+      "total_vat": 226.94,
+      "total_incl": 1307.64
+    }
+  }
+}

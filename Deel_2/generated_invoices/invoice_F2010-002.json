@@ -1,0 +1,76 @@
+{
+  "invoice": {
+    "invoice_number": "F2010-002",
+    "order_number": "2010-002",
+    "date": "17-05-2024",
+    "due_date": "15-08-2024",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Sputnik B.V.",
+      "address": "Kerkstraat 864",
+      "postal_code": "2778 AA",
+      "city": "Utrecht",
+      "kvk": "87290742"
+    },
+    "line_items": [
+      {
+        "description": "Oracle Cloud",
+        "quantity": 4,
+        "unit": "stuks",
+        "price_excl": 188.6,
+        "vat_rate": 6.0,
+        "total_excl": 754.4,
+        "vat_amount": 45.26,
+        "total_incl": 799.66
+      },
+      {
+        "description": "Google Workspace",
+        "quantity": 4,
+        "unit": "stuks",
+        "price_excl": 370.74,
+        "vat_rate": 21.0,
+        "total_excl": 1482.96,
+        "vat_amount": 311.42,
+        "total_incl": 1794.38
+      },
+      {
+        "description": "Google Ads",
+        "quantity": 1,
+        "unit": "stuks",
+        "price_excl": 116.63,
+        "vat_rate": 6.0,
+        "total_excl": 116.63,
+        "vat_amount": 7.0,
+        "total_incl": 123.63
+      }
+    ],
+    "totals": {
+      "total_excl": 2353.99,
+      "vat_specifications": {
+        "6.0": {
+          "base_amount": 871.03,
+          "vat_amount": 52.26
+        },
+        "21.0": {
+          "base_amount": 1482.96,
+          "vat_amount": 311.42
+        }
+      },
+      "total_vat": 363.68,
+      "total_incl": 2717.67
+    }
+  }
+}

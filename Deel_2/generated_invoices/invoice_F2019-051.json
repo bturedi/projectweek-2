@@ -1,0 +1,52 @@
+{
+  "invoice": {
+    "invoice_number": "F2019-051",
+    "order_number": "2019-051",
+    "date": "11-01-2023",
+    "due_date": "11-04-2023",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Saturnus B.V.",
+      "address": "Schoolstraat 670",
+      "postal_code": "8945 AC",
+      "city": "Rotterdam",
+      "kvk": "55052363"
+    },
+    "line_items": [
+      {
+        "description": "Adobe InDesign",
+        "quantity": 1,
+        "unit": "stuks",
+        "price_excl": 289.08,
+        "vat_rate": 21.0,
+        "total_excl": 289.08,
+        "vat_amount": 60.71,
+        "total_incl": 349.79
+      }
+    ],
+    "totals": {
+      "total_excl": 289.08,
+      "vat_specifications": {
+        "21.0": {
+          "base_amount": 289.08,
+          "vat_amount": 60.71
+        }
+      },
+      "total_vat": 60.71,
+      "total_incl": 349.79
+    }
+  }
+}

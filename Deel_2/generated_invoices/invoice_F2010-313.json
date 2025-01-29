@@ -1,0 +1,76 @@
+{
+  "invoice": {
+    "invoice_number": "F2010-313",
+    "order_number": "2010-313",
+    "date": "21-05-2021",
+    "due_date": "20-06-2021",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Sputnik B.V.",
+      "address": "Kerkstraat 681",
+      "postal_code": "6142 AC",
+      "city": "Utrecht",
+      "kvk": "82580716"
+    },
+    "line_items": [
+      {
+        "description": "Microsoft Visual Studio 2019",
+        "quantity": 1,
+        "unit": "stuks",
+        "price_excl": 246.53,
+        "vat_rate": 21.0,
+        "total_excl": 246.53,
+        "vat_amount": 51.77,
+        "total_incl": 298.3
+      },
+      {
+        "description": "Oracle Database 19c",
+        "quantity": 3,
+        "unit": "stuks",
+        "price_excl": 395.81,
+        "vat_rate": 21.0,
+        "total_excl": 1187.43,
+        "vat_amount": 249.36,
+        "total_incl": 1436.79
+      },
+      {
+        "description": "Oracle Solaris",
+        "quantity": 2,
+        "unit": "stuks",
+        "price_excl": 142.06,
+        "vat_rate": 9.0,
+        "total_excl": 284.12,
+        "vat_amount": 25.57,
+        "total_incl": 309.69
+      }
+    ],
+    "totals": {
+      "total_excl": 1718.08,
+      "vat_specifications": {
+        "21.0": {
+          "base_amount": 1433.96,
+          "vat_amount": 301.13
+        },
+        "9.0": {
+          "base_amount": 284.12,
+          "vat_amount": 25.57
+        }
+      },
+      "total_vat": 326.7,
+      "total_incl": 2044.78
+    }
+  }
+}

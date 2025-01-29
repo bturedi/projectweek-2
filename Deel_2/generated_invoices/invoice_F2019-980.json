@@ -1,0 +1,80 @@
+{
+  "invoice": {
+    "invoice_number": "F2019-980",
+    "order_number": "2019-980",
+    "date": "12-09-2024",
+    "due_date": "12-10-2024",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Sputnik B.V.",
+      "address": "Kerkstraat 669",
+      "postal_code": "3198 AA",
+      "city": "Rotterdam",
+      "kvk": "54103319"
+    },
+    "line_items": [
+      {
+        "description": "Microsoft SQL Server 2019",
+        "quantity": 2,
+        "unit": "stuks",
+        "price_excl": 404.75,
+        "vat_rate": 21.0,
+        "total_excl": 809.5,
+        "vat_amount": 170.0,
+        "total_incl": 979.5
+      },
+      {
+        "description": "Adobe Photoshop",
+        "quantity": 3,
+        "unit": "stuks",
+        "price_excl": 358.08,
+        "vat_rate": 9.0,
+        "total_excl": 1074.24,
+        "vat_amount": 96.68,
+        "total_incl": 1170.92
+      },
+      {
+        "description": "Adobe Photoshop",
+        "quantity": 4,
+        "unit": "stuks",
+        "price_excl": 330.77,
+        "vat_rate": 6.0,
+        "total_excl": 1323.08,
+        "vat_amount": 79.38,
+        "total_incl": 1402.46
+      }
+    ],
+    "totals": {
+      "total_excl": 3206.82,
+      "vat_specifications": {
+        "21.0": {
+          "base_amount": 809.5,
+          "vat_amount": 170.0
+        },
+        "9.0": {
+          "base_amount": 1074.24,
+          "vat_amount": 96.68
+        },
+        "6.0": {
+          "base_amount": 1323.08,
+          "vat_amount": 79.38
+        }
+      },
+      "total_vat": 346.06,
+      "total_incl": 3552.88
+    }
+  }
+}

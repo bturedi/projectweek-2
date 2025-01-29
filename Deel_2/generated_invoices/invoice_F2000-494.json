@@ -1,0 +1,52 @@
+{
+  "invoice": {
+    "invoice_number": "F2000-494",
+    "order_number": "2000-494",
+    "date": "23-04-2021",
+    "due_date": "23-05-2021",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Sputnik B.V.",
+      "address": "Hoofdstraat 731",
+      "postal_code": "7264 AB",
+      "city": "Utrecht",
+      "kvk": "17371595"
+    },
+    "line_items": [
+      {
+        "description": "Oracle MySQL",
+        "quantity": 2,
+        "unit": "stuks",
+        "price_excl": 433.08,
+        "vat_rate": 21.0,
+        "total_excl": 866.16,
+        "vat_amount": 181.89,
+        "total_incl": 1048.05
+      }
+    ],
+    "totals": {
+      "total_excl": 866.16,
+      "vat_specifications": {
+        "21.0": {
+          "base_amount": 866.16,
+          "vat_amount": 181.89
+        }
+      },
+      "total_vat": 181.89,
+      "total_incl": 1048.05
+    }
+  }
+}

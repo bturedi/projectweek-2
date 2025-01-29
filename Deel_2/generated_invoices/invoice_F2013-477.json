@@ -1,0 +1,76 @@
+{
+  "invoice": {
+    "invoice_number": "F2013-477",
+    "order_number": "2013-477",
+    "date": "20-06-2020",
+    "due_date": "20-07-2020",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Sputnik B.V.",
+      "address": "Kerkstraat 859",
+      "postal_code": "5536 AB",
+      "city": "Rotterdam",
+      "kvk": "16496095"
+    },
+    "line_items": [
+      {
+        "description": "Adobe Photoshop",
+        "quantity": 1,
+        "unit": "stuks",
+        "price_excl": 68.35,
+        "vat_rate": 21.0,
+        "total_excl": 68.35,
+        "vat_amount": 14.35,
+        "total_incl": 82.7
+      },
+      {
+        "description": "Google Ads",
+        "quantity": 3,
+        "unit": "stuks",
+        "price_excl": 241.94,
+        "vat_rate": 6.0,
+        "total_excl": 725.82,
+        "vat_amount": 43.55,
+        "total_incl": 769.37
+      },
+      {
+        "description": "Oracle VirtualBox",
+        "quantity": 2,
+        "unit": "stuks",
+        "price_excl": 27.96,
+        "vat_rate": 6.0,
+        "total_excl": 55.92,
+        "vat_amount": 3.36,
+        "total_incl": 59.28
+      }
+    ],
+    "totals": {
+      "total_excl": 850.09,
+      "vat_specifications": {
+        "21.0": {
+          "base_amount": 68.35,
+          "vat_amount": 14.35
+        },
+        "6.0": {
+          "base_amount": 781.74,
+          "vat_amount": 46.91
+        }
+      },
+      "total_vat": 61.26,
+      "total_incl": 911.35
+    }
+  }
+}

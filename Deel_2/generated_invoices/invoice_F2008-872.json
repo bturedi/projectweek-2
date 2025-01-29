@@ -1,0 +1,66 @@
+{
+  "invoice": {
+    "invoice_number": "F2008-872",
+    "order_number": "2008-872",
+    "date": "27-09-2020",
+    "due_date": "27-10-2020",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Jupiter B.V.",
+      "address": "Schoolstraat 601",
+      "postal_code": "2494 AC",
+      "city": "Utrecht",
+      "kvk": "64090901"
+    },
+    "line_items": [
+      {
+        "description": "Microsoft Office 365",
+        "quantity": 4,
+        "unit": "stuks",
+        "price_excl": 245.83,
+        "vat_rate": 9.0,
+        "total_excl": 983.32,
+        "vat_amount": 88.5,
+        "total_incl": 1071.82
+      },
+      {
+        "description": "Google Cloud Platform",
+        "quantity": 1,
+        "unit": "stuks",
+        "price_excl": 232.66,
+        "vat_rate": 21.0,
+        "total_excl": 232.66,
+        "vat_amount": 48.86,
+        "total_incl": 281.52
+      }
+    ],
+    "totals": {
+      "total_excl": 1215.98,
+      "vat_specifications": {
+        "9.0": {
+          "base_amount": 983.32,
+          "vat_amount": 88.5
+        },
+        "21.0": {
+          "base_amount": 232.66,
+          "vat_amount": 48.86
+        }
+      },
+      "total_vat": 137.36,
+      "total_incl": 1353.34
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "invoice": {
+    "invoice_number": "F2021-162",
+    "order_number": "2021-162",
+    "date": "10-10-2022",
+    "due_date": "09-11-2022",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Saturnus B.V.",
+      "address": "Schoolstraat 828",
+      "postal_code": "6663 AA",
+      "city": "Utrecht",
+      "kvk": "30056994"
+    },
+    "line_items": [
+      {
+        "description": "GitHub",
+        "quantity": 2,
+        "unit": "stuks",
+        "price_excl": 212.13,
+        "vat_rate": 6.0,
+        "total_excl": 424.26,
+        "vat_amount": 25.46,
+        "total_incl": 449.72
+      },
+      {
+        "description": "Oracle Solaris",
+        "quantity": 4,
+        "unit": "stuks",
+        "price_excl": 331.66,
+        "vat_rate": 9.0,
+        "total_excl": 1326.64,
+        "vat_amount": 119.4,
+        "total_incl": 1446.04
+      },
+      {
+        "description": "Oracle WebLogic Server",
+        "quantity": 3,
+        "unit": "stuks",
+        "price_excl": 482.48,
+        "vat_rate": 6.0,
+        "total_excl": 1447.44,
+        "vat_amount": 86.85,
+        "total_incl": 1534.29
+      }
+    ],
+    "totals": {
+      "total_excl": 3198.34,
+      "vat_specifications": {
+        "6.0": {
+          "base_amount": 1871.7,
+          "vat_amount": 112.31
+        },
+        "9.0": {
+          "base_amount": 1326.64,
+          "vat_amount": 119.4
+        }
+      },
+      "total_vat": 231.71,
+      "total_incl": 3430.05
+    }
+  }
+}

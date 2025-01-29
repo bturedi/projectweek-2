@@ -1,0 +1,76 @@
+{
+  "invoice": {
+    "invoice_number": "F2011-156",
+    "order_number": "2011-156",
+    "date": "24-09-2020",
+    "due_date": "23-12-2020",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Jupiter B.V.",
+      "address": "Schoolstraat 825",
+      "postal_code": "6133 AC",
+      "city": "Amsterdam",
+      "kvk": "40650208"
+    },
+    "line_items": [
+      {
+        "description": "Microsoft Power BI",
+        "quantity": 4,
+        "unit": "stuks",
+        "price_excl": 133.57,
+        "vat_rate": 21.0,
+        "total_excl": 534.28,
+        "vat_amount": 112.2,
+        "total_incl": 646.48
+      },
+      {
+        "description": "Google Workspace",
+        "quantity": 2,
+        "unit": "stuks",
+        "price_excl": 273.37,
+        "vat_rate": 6.0,
+        "total_excl": 546.74,
+        "vat_amount": 32.8,
+        "total_incl": 579.54
+      },
+      {
+        "description": "Microsoft Azure",
+        "quantity": 2,
+        "unit": "stuks",
+        "price_excl": 481.23,
+        "vat_rate": 6.0,
+        "total_excl": 962.46,
+        "vat_amount": 57.75,
+        "total_incl": 1020.21
+      }
+    ],
+    "totals": {
+      "total_excl": 2043.48,
+      "vat_specifications": {
+        "21.0": {
+          "base_amount": 534.28,
+          "vat_amount": 112.2
+        },
+        "6.0": {
+          "base_amount": 1509.2,
+          "vat_amount": 90.55
+        }
+      },
+      "total_vat": 202.75,
+      "total_incl": 2246.23
+    }
+  }
+}

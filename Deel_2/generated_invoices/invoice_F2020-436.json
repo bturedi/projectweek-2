@@ -1,0 +1,52 @@
+{
+  "invoice": {
+    "invoice_number": "F2020-436",
+    "order_number": "2020-436",
+    "date": "25-11-2020",
+    "due_date": "23-02-2021",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Saturnus B.V.",
+      "address": "Hoofdstraat 543",
+      "postal_code": "4285 AC",
+      "city": "Rotterdam",
+      "kvk": "93910794"
+    },
+    "line_items": [
+      {
+        "description": "Microsoft Windows 10",
+        "quantity": 4,
+        "unit": "stuks",
+        "price_excl": 76.32,
+        "vat_rate": 21.0,
+        "total_excl": 305.28,
+        "vat_amount": 64.11,
+        "total_incl": 369.39
+      }
+    ],
+    "totals": {
+      "total_excl": 305.28,
+      "vat_specifications": {
+        "21.0": {
+          "base_amount": 305.28,
+          "vat_amount": 64.11
+        }
+      },
+      "total_vat": 64.11,
+      "total_incl": 369.39
+    }
+  }
+}

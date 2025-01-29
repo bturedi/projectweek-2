@@ -1,0 +1,66 @@
+{
+  "invoice": {
+    "invoice_number": "F2011-391",
+    "order_number": "2011-391",
+    "date": "16-10-2020",
+    "due_date": "15-12-2020",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Jupiter B.V.",
+      "address": "Schoolstraat 683",
+      "postal_code": "1190 AA",
+      "city": "Amsterdam",
+      "kvk": "27158677"
+    },
+    "line_items": [
+      {
+        "description": "Oracle Cloud",
+        "quantity": 3,
+        "unit": "stuks",
+        "price_excl": 383.42,
+        "vat_rate": 6.0,
+        "total_excl": 1150.26,
+        "vat_amount": 69.02,
+        "total_incl": 1219.28
+      },
+      {
+        "description": "Google Workspace",
+        "quantity": 1,
+        "unit": "stuks",
+        "price_excl": 44.11,
+        "vat_rate": 21.0,
+        "total_excl": 44.11,
+        "vat_amount": 9.26,
+        "total_incl": 53.37
+      }
+    ],
+    "totals": {
+      "total_excl": 1194.37,
+      "vat_specifications": {
+        "6.0": {
+          "base_amount": 1150.26,
+          "vat_amount": 69.02
+        },
+        "21.0": {
+          "base_amount": 44.11,
+          "vat_amount": 9.26
+        }
+      },
+      "total_vat": 78.28,
+      "total_incl": 1272.65
+    }
+  }
+}

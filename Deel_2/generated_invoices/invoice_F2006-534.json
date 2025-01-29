@@ -1,0 +1,82 @@
+{
+  "invoice": {
+    "invoice_number": "F2006-534",
+    "order_number": "2006-534",
+    "date": "01-01-2022",
+    "due_date": "01-04-2022",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Jupiter B.V.",
+      "address": "Kerkstraat 319",
+      "postal_code": "3509 AC",
+      "city": "Utrecht",
+      "kvk": "80332714"
+    },
+    "line_items": [
+      {
+        "description": "Oracle MySQL",
+        "quantity": 2,
+        "unit": "stuks",
+        "price_excl": 135.32,
+        "vat_rate": 21.0,
+        "total_excl": 270.64,
+        "vat_amount": 56.83,
+        "total_incl": 327.47
+      },
+      {
+        "description": "Oracle WebLogic Server",
+        "quantity": 4,
+        "unit": "stuks",
+        "price_excl": 36.93,
+        "vat_rate": 21.0,
+        "total_excl": 147.72,
+        "vat_amount": 31.02,
+        "total_incl": 178.74
+      },
+      {
+        "description": "Oracle VM",
+        "quantity": 1,
+        "unit": "stuks",
+        "price_excl": 446.35,
+        "vat_rate": 21.0,
+        "total_excl": 446.35,
+        "vat_amount": 93.73,
+        "total_incl": 540.08
+      },
+      {
+        "description": "Oracle VM",
+        "quantity": 4,
+        "unit": "stuks",
+        "price_excl": 191.67,
+        "vat_rate": 21.0,
+        "total_excl": 766.68,
+        "vat_amount": 161.0,
+        "total_incl": 927.68
+      }
+    ],
+    "totals": {
+      "total_excl": 1631.39,
+      "vat_specifications": {
+        "21.0": {
+          "base_amount": 1631.39,
+          "vat_amount": 342.58
+        }
+      },
+      "total_vat": 342.58,
+      "total_incl": 1973.97
+    }
+  }
+}

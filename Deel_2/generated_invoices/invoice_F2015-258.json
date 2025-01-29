@@ -1,0 +1,76 @@
+{
+  "invoice": {
+    "invoice_number": "F2015-258",
+    "order_number": "2015-258",
+    "date": "16-06-2023",
+    "due_date": "14-09-2023",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Sputnik B.V.",
+      "address": "Kerkstraat 141",
+      "postal_code": "4619 AA",
+      "city": "Rotterdam",
+      "kvk": "78096346"
+    },
+    "line_items": [
+      {
+        "description": "Google Cloud Platform",
+        "quantity": 1,
+        "unit": "stuks",
+        "price_excl": 449.39,
+        "vat_rate": 6.0,
+        "total_excl": 449.39,
+        "vat_amount": 26.96,
+        "total_incl": 476.35
+      },
+      {
+        "description": "Oracle WebLogic Server",
+        "quantity": 3,
+        "unit": "stuks",
+        "price_excl": 499.08,
+        "vat_rate": 9.0,
+        "total_excl": 1497.24,
+        "vat_amount": 134.75,
+        "total_incl": 1631.99
+      },
+      {
+        "description": "Adobe Illustrator",
+        "quantity": 1,
+        "unit": "stuks",
+        "price_excl": 35.71,
+        "vat_rate": 9.0,
+        "total_excl": 35.71,
+        "vat_amount": 3.21,
+        "total_incl": 38.92
+      }
+    ],
+    "totals": {
+      "total_excl": 1982.34,
+      "vat_specifications": {
+        "6.0": {
+          "base_amount": 449.39,
+          "vat_amount": 26.96
+        },
+        "9.0": {
+          "base_amount": 1532.95,
+          "vat_amount": 137.96
+        }
+      },
+      "total_vat": 164.92,
+      "total_incl": 2147.26
+    }
+  }
+}

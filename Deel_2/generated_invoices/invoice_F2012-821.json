@@ -1,0 +1,72 @@
+{
+  "invoice": {
+    "invoice_number": "F2012-821",
+    "order_number": "2012-821",
+    "date": "24-10-2021",
+    "due_date": "23-11-2021",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Saturnus B.V.",
+      "address": "Schoolstraat 624",
+      "postal_code": "7211 AC",
+      "city": "Utrecht",
+      "kvk": "29841126"
+    },
+    "line_items": [
+      {
+        "description": "Google Workspace",
+        "quantity": 2,
+        "unit": "stuks",
+        "price_excl": 198.58,
+        "vat_rate": 9.0,
+        "total_excl": 397.16,
+        "vat_amount": 35.74,
+        "total_incl": 432.9
+      },
+      {
+        "description": "Google Workspace",
+        "quantity": 4,
+        "unit": "stuks",
+        "price_excl": 492.44,
+        "vat_rate": 9.0,
+        "total_excl": 1969.76,
+        "vat_amount": 177.28,
+        "total_incl": 2147.04
+      },
+      {
+        "description": "Adobe Photoshop",
+        "quantity": 4,
+        "unit": "stuks",
+        "price_excl": 456.72,
+        "vat_rate": 9.0,
+        "total_excl": 1826.88,
+        "vat_amount": 164.42,
+        "total_incl": 1991.3
+      }
+    ],
+    "totals": {
+      "total_excl": 4193.8,
+      "vat_specifications": {
+        "9.0": {
+          "base_amount": 4193.8,
+          "vat_amount": 377.44
+        }
+      },
+      "total_vat": 377.44,
+      "total_incl": 4571.24
+    }
+  }
+}

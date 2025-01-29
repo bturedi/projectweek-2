@@ -1,0 +1,76 @@
+{
+  "invoice": {
+    "invoice_number": "F2001-855",
+    "order_number": "2001-855",
+    "date": "15-08-2021",
+    "due_date": "14-09-2021",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Sputnik B.V.",
+      "address": "Hoofdstraat 455",
+      "postal_code": "6395 AA",
+      "city": "Utrecht",
+      "kvk": "64490582"
+    },
+    "line_items": [
+      {
+        "description": "GitHub",
+        "quantity": 5,
+        "unit": "stuks",
+        "price_excl": 140.84,
+        "vat_rate": 21.0,
+        "total_excl": 704.2,
+        "vat_amount": 147.88,
+        "total_incl": 852.08
+      },
+      {
+        "description": "Adobe Photoshop",
+        "quantity": 3,
+        "unit": "stuks",
+        "price_excl": 109.16,
+        "vat_rate": 6.0,
+        "total_excl": 327.48,
+        "vat_amount": 19.65,
+        "total_incl": 347.13
+      },
+      {
+        "description": "Microsoft Dynamics 365",
+        "quantity": 1,
+        "unit": "stuks",
+        "price_excl": 25.66,
+        "vat_rate": 21.0,
+        "total_excl": 25.66,
+        "vat_amount": 5.39,
+        "total_incl": 31.05
+      }
+    ],
+    "totals": {
+      "total_excl": 1057.34,
+      "vat_specifications": {
+        "21.0": {
+          "base_amount": 729.86,
+          "vat_amount": 153.27
+        },
+        "6.0": {
+          "base_amount": 327.48,
+          "vat_amount": 19.65
+        }
+      },
+      "total_vat": 172.92,
+      "total_incl": 1230.26
+    }
+  }
+}

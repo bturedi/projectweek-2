@@ -1,0 +1,66 @@
+{
+  "invoice": {
+    "invoice_number": "F2015-495",
+    "order_number": "2015-495",
+    "date": "19-03-2021",
+    "due_date": "18-05-2021",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Saturnus B.V.",
+      "address": "Kerkstraat 40",
+      "postal_code": "7105 AA",
+      "city": "Rotterdam",
+      "kvk": "68884558"
+    },
+    "line_items": [
+      {
+        "description": "Adobe Photoshop",
+        "quantity": 2,
+        "unit": "stuks",
+        "price_excl": 139.27,
+        "vat_rate": 9.0,
+        "total_excl": 278.54,
+        "vat_amount": 25.07,
+        "total_incl": 303.61
+      },
+      {
+        "description": "Google Analytics",
+        "quantity": 2,
+        "unit": "stuks",
+        "price_excl": 210.28,
+        "vat_rate": 6.0,
+        "total_excl": 420.56,
+        "vat_amount": 25.23,
+        "total_incl": 445.79
+      }
+    ],
+    "totals": {
+      "total_excl": 699.1,
+      "vat_specifications": {
+        "9.0": {
+          "base_amount": 278.54,
+          "vat_amount": 25.07
+        },
+        "6.0": {
+          "base_amount": 420.56,
+          "vat_amount": 25.23
+        }
+      },
+      "total_vat": 50.3,
+      "total_incl": 749.4
+    }
+  }
+}

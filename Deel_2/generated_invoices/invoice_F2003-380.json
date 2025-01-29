@@ -1,0 +1,52 @@
+{
+  "invoice": {
+    "invoice_number": "F2003-380",
+    "order_number": "2003-380",
+    "date": "06-02-2022",
+    "due_date": "07-04-2022",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Jupiter B.V.",
+      "address": "Kerkstraat 733",
+      "postal_code": "6110 AA",
+      "city": "Rotterdam",
+      "kvk": "98531198"
+    },
+    "line_items": [
+      {
+        "description": "Microsoft SQL Server 2019",
+        "quantity": 3,
+        "unit": "stuks",
+        "price_excl": 239.9,
+        "vat_rate": 6.0,
+        "total_excl": 719.7,
+        "vat_amount": 43.18,
+        "total_incl": 762.88
+      }
+    ],
+    "totals": {
+      "total_excl": 719.7,
+      "vat_specifications": {
+        "6.0": {
+          "base_amount": 719.7,
+          "vat_amount": 43.18
+        }
+      },
+      "total_vat": 43.18,
+      "total_incl": 762.88
+    }
+  }
+}

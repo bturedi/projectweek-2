@@ -1,0 +1,86 @@
+{
+  "invoice": {
+    "invoice_number": "F2024-391",
+    "order_number": "2024-391",
+    "date": "14-03-2020",
+    "due_date": "12-06-2020",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Jupiter B.V.",
+      "address": "Kerkstraat 100",
+      "postal_code": "9997 AC",
+      "city": "Rotterdam",
+      "kvk": "76115831"
+    },
+    "line_items": [
+      {
+        "description": "Adobe InDesign",
+        "quantity": 5,
+        "unit": "stuks",
+        "price_excl": 97.69,
+        "vat_rate": 21.0,
+        "total_excl": 488.45,
+        "vat_amount": 102.57,
+        "total_incl": 591.02
+      },
+      {
+        "description": "Google Analytics",
+        "quantity": 4,
+        "unit": "stuks",
+        "price_excl": 162.4,
+        "vat_rate": 6.0,
+        "total_excl": 649.6,
+        "vat_amount": 38.98,
+        "total_incl": 688.58
+      },
+      {
+        "description": "Adobe Creative Cloud",
+        "quantity": 3,
+        "unit": "stuks",
+        "price_excl": 438.02,
+        "vat_rate": 21.0,
+        "total_excl": 1314.06,
+        "vat_amount": 275.95,
+        "total_incl": 1590.01
+      },
+      {
+        "description": "Google Workspace",
+        "quantity": 4,
+        "unit": "stuks",
+        "price_excl": 492.27,
+        "vat_rate": 6.0,
+        "total_excl": 1969.08,
+        "vat_amount": 118.14,
+        "total_incl": 2087.22
+      }
+    ],
+    "totals": {
+      "total_excl": 4421.19,
+      "vat_specifications": {
+        "21.0": {
+          "base_amount": 1802.51,
+          "vat_amount": 378.52
+        },
+        "6.0": {
+          "base_amount": 2618.68,
+          "vat_amount": 157.12
+        }
+      },
+      "total_vat": 535.64,
+      "total_incl": 4956.83
+    }
+  }
+}

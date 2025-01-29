@@ -1,0 +1,76 @@
+{
+  "invoice": {
+    "invoice_number": "F2016-037",
+    "order_number": "2016-037",
+    "date": "15-12-2021",
+    "due_date": "13-02-2022",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Jupiter B.V.",
+      "address": "Kerkstraat 572",
+      "postal_code": "7299 AC",
+      "city": "Amsterdam",
+      "kvk": "15730370"
+    },
+    "line_items": [
+      {
+        "description": "Oracle MySQL",
+        "quantity": 1,
+        "unit": "stuks",
+        "price_excl": 11.17,
+        "vat_rate": 21.0,
+        "total_excl": 11.17,
+        "vat_amount": 2.35,
+        "total_incl": 13.52
+      },
+      {
+        "description": "Oracle WebLogic Server",
+        "quantity": 2,
+        "unit": "stuks",
+        "price_excl": 89.13,
+        "vat_rate": 9.0,
+        "total_excl": 178.26,
+        "vat_amount": 16.04,
+        "total_incl": 194.3
+      },
+      {
+        "description": "Microsoft Azure",
+        "quantity": 4,
+        "unit": "stuks",
+        "price_excl": 269.11,
+        "vat_rate": 21.0,
+        "total_excl": 1076.44,
+        "vat_amount": 226.05,
+        "total_incl": 1302.49
+      }
+    ],
+    "totals": {
+      "total_excl": 1265.87,
+      "vat_specifications": {
+        "21.0": {
+          "base_amount": 1087.61,
+          "vat_amount": 228.4
+        },
+        "9.0": {
+          "base_amount": 178.26,
+          "vat_amount": 16.04
+        }
+      },
+      "total_vat": 244.44,
+      "total_incl": 1510.31
+    }
+  }
+}

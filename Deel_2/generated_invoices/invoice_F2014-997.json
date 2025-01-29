@@ -1,0 +1,66 @@
+{
+  "invoice": {
+    "invoice_number": "F2014-997",
+    "order_number": "2014-997",
+    "date": "04-05-2021",
+    "due_date": "03-06-2021",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Jupiter B.V.",
+      "address": "Schoolstraat 365",
+      "postal_code": "4494 AC",
+      "city": "Utrecht",
+      "kvk": "52634604"
+    },
+    "line_items": [
+      {
+        "description": "Adobe Illustrator",
+        "quantity": 4,
+        "unit": "stuks",
+        "price_excl": 73.19,
+        "vat_rate": 21.0,
+        "total_excl": 292.76,
+        "vat_amount": 61.48,
+        "total_incl": 354.24
+      },
+      {
+        "description": "Oracle VM",
+        "quantity": 5,
+        "unit": "stuks",
+        "price_excl": 270.56,
+        "vat_rate": 6.0,
+        "total_excl": 1352.8,
+        "vat_amount": 81.17,
+        "total_incl": 1433.97
+      }
+    ],
+    "totals": {
+      "total_excl": 1645.56,
+      "vat_specifications": {
+        "21.0": {
+          "base_amount": 292.76,
+          "vat_amount": 61.48
+        },
+        "6.0": {
+          "base_amount": 1352.8,
+          "vat_amount": 81.17
+        }
+      },
+      "total_vat": 142.65,
+      "total_incl": 1788.21
+    }
+  }
+}

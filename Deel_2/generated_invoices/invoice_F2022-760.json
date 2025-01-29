@@ -1,0 +1,86 @@
+{
+  "invoice": {
+    "invoice_number": "F2022-760",
+    "order_number": "2022-760",
+    "date": "19-06-2021",
+    "due_date": "18-08-2021",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Saturnus B.V.",
+      "address": "Schoolstraat 83",
+      "postal_code": "6747 AB",
+      "city": "Amsterdam",
+      "kvk": "92144036"
+    },
+    "line_items": [
+      {
+        "description": "Adobe Illustrator",
+        "quantity": 4,
+        "unit": "stuks",
+        "price_excl": 197.72,
+        "vat_rate": 21.0,
+        "total_excl": 790.88,
+        "vat_amount": 166.08,
+        "total_incl": 956.96
+      },
+      {
+        "description": "GitHub",
+        "quantity": 2,
+        "unit": "stuks",
+        "price_excl": 244.48,
+        "vat_rate": 9.0,
+        "total_excl": 488.96,
+        "vat_amount": 44.01,
+        "total_incl": 532.97
+      },
+      {
+        "description": "Microsoft Dynamics 365",
+        "quantity": 5,
+        "unit": "stuks",
+        "price_excl": 115.67,
+        "vat_rate": 9.0,
+        "total_excl": 578.35,
+        "vat_amount": 52.05,
+        "total_incl": 630.4
+      },
+      {
+        "description": "Adobe InDesign",
+        "quantity": 5,
+        "unit": "stuks",
+        "price_excl": 154.35,
+        "vat_rate": 21.0,
+        "total_excl": 771.75,
+        "vat_amount": 162.07,
+        "total_incl": 933.82
+      }
+    ],
+    "totals": {
+      "total_excl": 2629.94,
+      "vat_specifications": {
+        "21.0": {
+          "base_amount": 1562.63,
+          "vat_amount": 328.15
+        },
+        "9.0": {
+          "base_amount": 1067.31,
+          "vat_amount": 96.06
+        }
+      },
+      "total_vat": 424.21,
+      "total_incl": 3054.15
+    }
+  }
+}

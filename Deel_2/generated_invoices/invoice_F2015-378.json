@@ -1,0 +1,66 @@
+{
+  "invoice": {
+    "invoice_number": "F2015-378",
+    "order_number": "2015-378",
+    "date": "13-03-2020",
+    "due_date": "12-05-2020",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Saturnus B.V.",
+      "address": "Kerkstraat 342",
+      "postal_code": "2437 AA",
+      "city": "Amsterdam",
+      "kvk": "97901799"
+    },
+    "line_items": [
+      {
+        "description": "Google Cloud Platform",
+        "quantity": 5,
+        "unit": "stuks",
+        "price_excl": 409.58,
+        "vat_rate": 9.0,
+        "total_excl": 2047.9,
+        "vat_amount": 184.31,
+        "total_incl": 2232.21
+      },
+      {
+        "description": "Oracle Solaris",
+        "quantity": 4,
+        "unit": "stuks",
+        "price_excl": 333.98,
+        "vat_rate": 21.0,
+        "total_excl": 1335.92,
+        "vat_amount": 280.54,
+        "total_incl": 1616.46
+      }
+    ],
+    "totals": {
+      "total_excl": 3383.82,
+      "vat_specifications": {
+        "9.0": {
+          "base_amount": 2047.9,
+          "vat_amount": 184.31
+        },
+        "21.0": {
+          "base_amount": 1335.92,
+          "vat_amount": 280.54
+        }
+      },
+      "total_vat": 464.85,
+      "total_incl": 3848.67
+    }
+  }
+}

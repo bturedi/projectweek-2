@@ -1,0 +1,72 @@
+{
+  "invoice": {
+    "invoice_number": "F2022-695",
+    "order_number": "2022-695",
+    "date": "13-12-2020",
+    "due_date": "12-01-2021",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Saturnus B.V.",
+      "address": "Hoofdstraat 561",
+      "postal_code": "5721 AA",
+      "city": "Amsterdam",
+      "kvk": "92300019"
+    },
+    "line_items": [
+      {
+        "description": "Google Webservices",
+        "quantity": 3,
+        "unit": "stuks",
+        "price_excl": 170.06,
+        "vat_rate": 6.0,
+        "total_excl": 510.18,
+        "vat_amount": 30.61,
+        "total_incl": 540.79
+      },
+      {
+        "description": "Adobe Premiere Pro",
+        "quantity": 2,
+        "unit": "stuks",
+        "price_excl": 202.01,
+        "vat_rate": 6.0,
+        "total_excl": 404.02,
+        "vat_amount": 24.24,
+        "total_incl": 428.26
+      },
+      {
+        "description": "Microsoft SQL Server 2019",
+        "quantity": 3,
+        "unit": "stuks",
+        "price_excl": 63.8,
+        "vat_rate": 6.0,
+        "total_excl": 191.4,
+        "vat_amount": 11.48,
+        "total_incl": 202.88
+      }
+    ],
+    "totals": {
+      "total_excl": 1105.6,
+      "vat_specifications": {
+        "6.0": {
+          "base_amount": 1105.6,
+          "vat_amount": 66.33
+        }
+      },
+      "total_vat": 66.33,
+      "total_incl": 1171.93
+    }
+  }
+}

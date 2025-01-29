@@ -1,0 +1,66 @@
+{
+  "invoice": {
+    "invoice_number": "F2019-787",
+    "order_number": "2019-787",
+    "date": "23-12-2020",
+    "due_date": "22-01-2021",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Sputnik B.V.",
+      "address": "Schoolstraat 434",
+      "postal_code": "2790 AC",
+      "city": "Amsterdam",
+      "kvk": "65639929"
+    },
+    "line_items": [
+      {
+        "description": "Adobe Photoshop",
+        "quantity": 3,
+        "unit": "stuks",
+        "price_excl": 162.98,
+        "vat_rate": 9.0,
+        "total_excl": 488.94,
+        "vat_amount": 44.0,
+        "total_incl": 532.94
+      },
+      {
+        "description": "Adobe InDesign",
+        "quantity": 3,
+        "unit": "stuks",
+        "price_excl": 204.87,
+        "vat_rate": 21.0,
+        "total_excl": 614.61,
+        "vat_amount": 129.07,
+        "total_incl": 743.68
+      }
+    ],
+    "totals": {
+      "total_excl": 1103.55,
+      "vat_specifications": {
+        "9.0": {
+          "base_amount": 488.94,
+          "vat_amount": 44.0
+        },
+        "21.0": {
+          "base_amount": 614.61,
+          "vat_amount": 129.07
+        }
+      },
+      "total_vat": 173.07,
+      "total_incl": 1276.62
+    }
+  }
+}

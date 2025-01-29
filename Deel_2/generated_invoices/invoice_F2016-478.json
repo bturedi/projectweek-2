@@ -1,0 +1,62 @@
+{
+  "invoice": {
+    "invoice_number": "F2016-478",
+    "order_number": "2016-478",
+    "date": "23-10-2021",
+    "due_date": "22-11-2021",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Jupiter B.V.",
+      "address": "Kerkstraat 124",
+      "postal_code": "3412 AA",
+      "city": "Utrecht",
+      "kvk": "56989427"
+    },
+    "line_items": [
+      {
+        "description": "Google Workspace",
+        "quantity": 1,
+        "unit": "stuks",
+        "price_excl": 476.81,
+        "vat_rate": 21.0,
+        "total_excl": 476.81,
+        "vat_amount": 100.13,
+        "total_incl": 576.94
+      },
+      {
+        "description": "GitHub",
+        "quantity": 5,
+        "unit": "stuks",
+        "price_excl": 238.13,
+        "vat_rate": 21.0,
+        "total_excl": 1190.65,
+        "vat_amount": 250.04,
+        "total_incl": 1440.69
+      }
+    ],
+    "totals": {
+      "total_excl": 1667.46,
+      "vat_specifications": {
+        "21.0": {
+          "base_amount": 1667.46,
+          "vat_amount": 350.17
+        }
+      },
+      "total_vat": 350.17,
+      "total_incl": 2017.63
+    }
+  }
+}

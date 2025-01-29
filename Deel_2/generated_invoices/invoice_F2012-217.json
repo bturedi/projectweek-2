@@ -1,0 +1,66 @@
+{
+  "invoice": {
+    "invoice_number": "F2012-217",
+    "order_number": "2012-217",
+    "date": "21-01-2022",
+    "due_date": "20-02-2022",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Sputnik B.V.",
+      "address": "Kerkstraat 33",
+      "postal_code": "1265 AA",
+      "city": "Rotterdam",
+      "kvk": "63397437"
+    },
+    "line_items": [
+      {
+        "description": "Adobe Premiere Pro",
+        "quantity": 3,
+        "unit": "stuks",
+        "price_excl": 17.57,
+        "vat_rate": 6.0,
+        "total_excl": 52.71,
+        "vat_amount": 3.16,
+        "total_incl": 55.87
+      },
+      {
+        "description": "Microsoft Visual Studio 2019",
+        "quantity": 3,
+        "unit": "stuks",
+        "price_excl": 328.25,
+        "vat_rate": 21.0,
+        "total_excl": 984.75,
+        "vat_amount": 206.8,
+        "total_incl": 1191.55
+      }
+    ],
+    "totals": {
+      "total_excl": 1037.46,
+      "vat_specifications": {
+        "6.0": {
+          "base_amount": 52.71,
+          "vat_amount": 3.16
+        },
+        "21.0": {
+          "base_amount": 984.75,
+          "vat_amount": 206.8
+        }
+      },
+      "total_vat": 209.96,
+      "total_incl": 1247.42
+    }
+  }
+}

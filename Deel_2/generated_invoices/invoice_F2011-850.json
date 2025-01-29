@@ -1,0 +1,86 @@
+{
+  "invoice": {
+    "invoice_number": "F2011-850",
+    "order_number": "2011-850",
+    "date": "16-08-2022",
+    "due_date": "15-09-2022",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Sputnik B.V.",
+      "address": "Kerkstraat 46",
+      "postal_code": "9458 AC",
+      "city": "Rotterdam",
+      "kvk": "37812946"
+    },
+    "line_items": [
+      {
+        "description": "Oracle WebLogic Server",
+        "quantity": 5,
+        "unit": "stuks",
+        "price_excl": 329.77,
+        "vat_rate": 6.0,
+        "total_excl": 1648.85,
+        "vat_amount": 98.93,
+        "total_incl": 1747.78
+      },
+      {
+        "description": "Oracle WebLogic Server",
+        "quantity": 4,
+        "unit": "stuks",
+        "price_excl": 191.32,
+        "vat_rate": 21.0,
+        "total_excl": 765.28,
+        "vat_amount": 160.71,
+        "total_incl": 925.99
+      },
+      {
+        "description": "GitHub",
+        "quantity": 2,
+        "unit": "stuks",
+        "price_excl": 281.02,
+        "vat_rate": 6.0,
+        "total_excl": 562.04,
+        "vat_amount": 33.72,
+        "total_incl": 595.76
+      },
+      {
+        "description": "GitHub",
+        "quantity": 5,
+        "unit": "stuks",
+        "price_excl": 262.61,
+        "vat_rate": 6.0,
+        "total_excl": 1313.05,
+        "vat_amount": 78.78,
+        "total_incl": 1391.83
+      }
+    ],
+    "totals": {
+      "total_excl": 4289.22,
+      "vat_specifications": {
+        "6.0": {
+          "base_amount": 3523.94,
+          "vat_amount": 211.43
+        },
+        "21.0": {
+          "base_amount": 765.28,
+          "vat_amount": 160.71
+        }
+      },
+      "total_vat": 372.14,
+      "total_incl": 4661.36
+    }
+  }
+}

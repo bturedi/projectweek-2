@@ -1,0 +1,66 @@
+{
+  "invoice": {
+    "invoice_number": "F2012-427",
+    "order_number": "2012-427",
+    "date": "12-06-2023",
+    "due_date": "11-08-2023",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Saturnus B.V.",
+      "address": "Kerkstraat 327",
+      "postal_code": "3923 AA",
+      "city": "Utrecht",
+      "kvk": "24942631"
+    },
+    "line_items": [
+      {
+        "description": "Microsoft Dynamics 365",
+        "quantity": 5,
+        "unit": "stuks",
+        "price_excl": 65.62,
+        "vat_rate": 21.0,
+        "total_excl": 328.1,
+        "vat_amount": 68.9,
+        "total_incl": 397.0
+      },
+      {
+        "description": "Oracle Database 19c",
+        "quantity": 2,
+        "unit": "stuks",
+        "price_excl": 230.97,
+        "vat_rate": 6.0,
+        "total_excl": 461.94,
+        "vat_amount": 27.72,
+        "total_incl": 489.66
+      }
+    ],
+    "totals": {
+      "total_excl": 790.04,
+      "vat_specifications": {
+        "21.0": {
+          "base_amount": 328.1,
+          "vat_amount": 68.9
+        },
+        "6.0": {
+          "base_amount": 461.94,
+          "vat_amount": 27.72
+        }
+      },
+      "total_vat": 96.62,
+      "total_incl": 886.66
+    }
+  }
+}

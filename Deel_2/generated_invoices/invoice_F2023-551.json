@@ -1,0 +1,62 @@
+{
+  "invoice": {
+    "invoice_number": "F2023-551",
+    "order_number": "2023-551",
+    "date": "18-11-2020",
+    "due_date": "18-12-2020",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Saturnus B.V.",
+      "address": "Kerkstraat 227",
+      "postal_code": "9094 AB",
+      "city": "Rotterdam",
+      "kvk": "77902999"
+    },
+    "line_items": [
+      {
+        "description": "Oracle MySQL",
+        "quantity": 3,
+        "unit": "stuks",
+        "price_excl": 255.23,
+        "vat_rate": 9.0,
+        "total_excl": 765.69,
+        "vat_amount": 68.91,
+        "total_incl": 834.6
+      },
+      {
+        "description": "Microsoft Visual Studio 2019",
+        "quantity": 2,
+        "unit": "stuks",
+        "price_excl": 78.66,
+        "vat_rate": 9.0,
+        "total_excl": 157.32,
+        "vat_amount": 14.16,
+        "total_incl": 171.48
+      }
+    ],
+    "totals": {
+      "total_excl": 923.01,
+      "vat_specifications": {
+        "9.0": {
+          "base_amount": 923.01,
+          "vat_amount": 83.07
+        }
+      },
+      "total_vat": 83.07,
+      "total_incl": 1006.08
+    }
+  }
+}

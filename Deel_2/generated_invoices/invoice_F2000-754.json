@@ -1,0 +1,80 @@
+{
+  "invoice": {
+    "invoice_number": "F2000-754",
+    "order_number": "2000-754",
+    "date": "17-05-2022",
+    "due_date": "15-08-2022",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Sputnik B.V.",
+      "address": "Schoolstraat 993",
+      "postal_code": "9037 AA",
+      "city": "Amsterdam",
+      "kvk": "53658571"
+    },
+    "line_items": [
+      {
+        "description": "Adobe Illustrator",
+        "quantity": 3,
+        "unit": "stuks",
+        "price_excl": 323.21,
+        "vat_rate": 6.0,
+        "total_excl": 969.63,
+        "vat_amount": 58.18,
+        "total_incl": 1027.81
+      },
+      {
+        "description": "Oracle Database 19c",
+        "quantity": 1,
+        "unit": "stuks",
+        "price_excl": 187.8,
+        "vat_rate": 21.0,
+        "total_excl": 187.8,
+        "vat_amount": 39.44,
+        "total_incl": 227.24
+      },
+      {
+        "description": "Oracle VM",
+        "quantity": 1,
+        "unit": "stuks",
+        "price_excl": 356.13,
+        "vat_rate": 9.0,
+        "total_excl": 356.13,
+        "vat_amount": 32.05,
+        "total_incl": 388.18
+      }
+    ],
+    "totals": {
+      "total_excl": 1513.56,
+      "vat_specifications": {
+        "6.0": {
+          "base_amount": 969.63,
+          "vat_amount": 58.18
+        },
+        "21.0": {
+          "base_amount": 187.8,
+          "vat_amount": 39.44
+        },
+        "9.0": {
+          "base_amount": 356.13,
+          "vat_amount": 32.05
+        }
+      },
+      "total_vat": 129.67,
+      "total_incl": 1643.23
+    }
+  }
+}

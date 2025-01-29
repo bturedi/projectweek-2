@@ -1,0 +1,76 @@
+{
+  "invoice": {
+    "invoice_number": "F2016-229",
+    "order_number": "2016-229",
+    "date": "18-04-2023",
+    "due_date": "17-06-2023",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Sputnik B.V.",
+      "address": "Kerkstraat 484",
+      "postal_code": "1942 AA",
+      "city": "Rotterdam",
+      "kvk": "43565577"
+    },
+    "line_items": [
+      {
+        "description": "GitHub",
+        "quantity": 3,
+        "unit": "stuks",
+        "price_excl": 69.23,
+        "vat_rate": 9.0,
+        "total_excl": 207.69,
+        "vat_amount": 18.69,
+        "total_incl": 226.38
+      },
+      {
+        "description": "Oracle VM",
+        "quantity": 3,
+        "unit": "stuks",
+        "price_excl": 442.11,
+        "vat_rate": 6.0,
+        "total_excl": 1326.33,
+        "vat_amount": 79.58,
+        "total_incl": 1405.91
+      },
+      {
+        "description": "Google Workspace",
+        "quantity": 2,
+        "unit": "stuks",
+        "price_excl": 434.02,
+        "vat_rate": 6.0,
+        "total_excl": 868.04,
+        "vat_amount": 52.08,
+        "total_incl": 920.12
+      }
+    ],
+    "totals": {
+      "total_excl": 2402.06,
+      "vat_specifications": {
+        "9.0": {
+          "base_amount": 207.69,
+          "vat_amount": 18.69
+        },
+        "6.0": {
+          "base_amount": 2194.37,
+          "vat_amount": 131.66
+        }
+      },
+      "total_vat": 150.35,
+      "total_incl": 2552.41
+    }
+  }
+}

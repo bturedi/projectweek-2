@@ -1,0 +1,76 @@
+{
+  "invoice": {
+    "invoice_number": "F2012-824",
+    "order_number": "2012-824",
+    "date": "20-04-2023",
+    "due_date": "20-05-2023",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Sputnik B.V.",
+      "address": "Schoolstraat 591",
+      "postal_code": "6302 AC",
+      "city": "Rotterdam",
+      "kvk": "47946077"
+    },
+    "line_items": [
+      {
+        "description": "Adobe InDesign",
+        "quantity": 3,
+        "unit": "stuks",
+        "price_excl": 366.82,
+        "vat_rate": 6.0,
+        "total_excl": 1100.46,
+        "vat_amount": 66.03,
+        "total_incl": 1166.49
+      },
+      {
+        "description": "Google Analytics",
+        "quantity": 4,
+        "unit": "stuks",
+        "price_excl": 94.68,
+        "vat_rate": 6.0,
+        "total_excl": 378.72,
+        "vat_amount": 22.72,
+        "total_incl": 401.44
+      },
+      {
+        "description": "Google Ads",
+        "quantity": 1,
+        "unit": "stuks",
+        "price_excl": 85.98,
+        "vat_rate": 9.0,
+        "total_excl": 85.98,
+        "vat_amount": 7.74,
+        "total_incl": 93.72
+      }
+    ],
+    "totals": {
+      "total_excl": 1565.16,
+      "vat_specifications": {
+        "6.0": {
+          "base_amount": 1479.18,
+          "vat_amount": 88.75
+        },
+        "9.0": {
+          "base_amount": 85.98,
+          "vat_amount": 7.74
+        }
+      },
+      "total_vat": 96.49,
+      "total_incl": 1661.65
+    }
+  }
+}

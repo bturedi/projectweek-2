@@ -1,0 +1,66 @@
+{
+  "invoice": {
+    "invoice_number": "F2002-637",
+    "order_number": "2002-637",
+    "date": "15-08-2024",
+    "due_date": "13-11-2024",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Jupiter B.V.",
+      "address": "Kerkstraat 243",
+      "postal_code": "9391 AA",
+      "city": "Utrecht",
+      "kvk": "83595069"
+    },
+    "line_items": [
+      {
+        "description": "Oracle Database 19c",
+        "quantity": 5,
+        "unit": "stuks",
+        "price_excl": 369.92,
+        "vat_rate": 6.0,
+        "total_excl": 1849.6,
+        "vat_amount": 110.98,
+        "total_incl": 1960.58
+      },
+      {
+        "description": "Adobe Photoshop",
+        "quantity": 5,
+        "unit": "stuks",
+        "price_excl": 453.2,
+        "vat_rate": 9.0,
+        "total_excl": 2266.0,
+        "vat_amount": 203.94,
+        "total_incl": 2469.94
+      }
+    ],
+    "totals": {
+      "total_excl": 4115.6,
+      "vat_specifications": {
+        "6.0": {
+          "base_amount": 1849.6,
+          "vat_amount": 110.98
+        },
+        "9.0": {
+          "base_amount": 2266.0,
+          "vat_amount": 203.94
+        }
+      },
+      "total_vat": 314.92,
+      "total_incl": 4430.52
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "invoice": {
+    "invoice_number": "F2010-130",
+    "order_number": "2010-130",
+    "date": "01-03-2023",
+    "due_date": "30-04-2023",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Saturnus B.V.",
+      "address": "Schoolstraat 780",
+      "postal_code": "5418 AA",
+      "city": "Utrecht",
+      "kvk": "20784091"
+    },
+    "line_items": [
+      {
+        "description": "Microsoft Office 365",
+        "quantity": 4,
+        "unit": "stuks",
+        "price_excl": 147.32,
+        "vat_rate": 21.0,
+        "total_excl": 589.28,
+        "vat_amount": 123.75,
+        "total_incl": 713.03
+      },
+      {
+        "description": "Google Webservices",
+        "quantity": 2,
+        "unit": "stuks",
+        "price_excl": 41.37,
+        "vat_rate": 21.0,
+        "total_excl": 82.74,
+        "vat_amount": 17.38,
+        "total_incl": 100.12
+      },
+      {
+        "description": "Google Webservices",
+        "quantity": 4,
+        "unit": "stuks",
+        "price_excl": 179.45,
+        "vat_rate": 9.0,
+        "total_excl": 717.8,
+        "vat_amount": 64.6,
+        "total_incl": 782.4
+      }
+    ],
+    "totals": {
+      "total_excl": 1389.82,
+      "vat_specifications": {
+        "21.0": {
+          "base_amount": 672.02,
+          "vat_amount": 141.13
+        },
+        "9.0": {
+          "base_amount": 717.8,
+          "vat_amount": 64.6
+        }
+      },
+      "total_vat": 205.73,
+      "total_incl": 1595.55
+    }
+  }
+}

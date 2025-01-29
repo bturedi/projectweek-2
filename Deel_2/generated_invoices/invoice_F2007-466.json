@@ -1,0 +1,52 @@
+{
+  "invoice": {
+    "invoice_number": "F2007-466",
+    "order_number": "2007-466",
+    "date": "26-09-2022",
+    "due_date": "25-12-2022",
+    "company": {
+      "name": "XYZ Services",
+      "contact": "Lisa de Vries",
+      "address": "Hoofdstraat 45",
+      "postal": "5678 CD",
+      "city": "Rotterdam",
+      "kvk": "12345678",
+      "btw": "NL123456789B01",
+      "iban": "NL91ABNA0123456789",
+      "phone": "010-1234567",
+      "mobile": "06-12345678",
+      "email": "info@xyzservices.nl",
+      "website": "www.xyzservices.nl"
+    },
+    "customer": {
+      "name": "PC Jupiter B.V.",
+      "address": "Hoofdstraat 85",
+      "postal_code": "1066 AA",
+      "city": "Amsterdam",
+      "kvk": "88154686"
+    },
+    "line_items": [
+      {
+        "description": "Oracle VirtualBox",
+        "quantity": 1,
+        "unit": "stuks",
+        "price_excl": 47.81,
+        "vat_rate": 9.0,
+        "total_excl": 47.81,
+        "vat_amount": 4.3,
+        "total_incl": 52.11
+      }
+    ],
+    "totals": {
+      "total_excl": 47.81,
+      "vat_specifications": {
+        "9.0": {
+          "base_amount": 47.81,
+          "vat_amount": 4.3
+        }
+      },
+      "total_vat": 4.3,
+      "total_incl": 52.11
+    }
+  }
+}
